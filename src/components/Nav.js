@@ -13,12 +13,13 @@ const Logo = styled.img``
 const LinkWrap = styled.div`
 display: flex;
 justify-content: space-around;
+font-size: 1.5rem;
+text-decoration: underline;
 `
 
 const Nav = () => (
   <Container>
     <Logo src={logo} />
-    
     <LinkWrap>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>

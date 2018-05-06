@@ -7,6 +7,13 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
     'gatsby-plugin-styled-components',
+    // 'typography-theme-de-young',
+    {       
+      resolve: `gatsby-plugin-typography`,       
+      options: {         
+        pathToConfigModule: `src/utils/typography.js`,       
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
