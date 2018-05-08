@@ -12,7 +12,7 @@ const Header = () => (
     <Social></Social>
   </Wrap>
 )
-  const Wrap = styled.div`
+  const Wrap = styled.section`
   background: #333333;
   color: white;
   display: flex;
