@@ -7,6 +7,7 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
     'gatsby-plugin-styled-components',
+    'react-icons-kit',
     // 'typography-theme-de-young',
     {       
       resolve: `gatsby-plugin-typography`,       
