@@ -6,23 +6,20 @@ import MainPage from '../pages/MainPage'
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
+    <Helmet title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: "travelDev's blog" },
         { name: 'keywords', content: 'travel, development' },
       ]}
     />
-    <div
-      style={{
-        margin: '2rem auto',
-        maxWidth: '90%',
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-        textAlign: 'center',
-      }}
-    >
-    <MainPage />
+    <div style={{
+      margin: '2rem auto',
+      maxWidth: '90%',
+      padding: '0px 1.0875rem 1.45rem',
+      paddingTop: 0,
+      textAlign: 'center',
+    }}>
+    <MainPage data={data} />
     </div>
   </div>
 )
@@ -38,6 +35,19 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+
+    allYoutubeVideo(limit: 5) {
+      edges {
+        node {
+          id
+          title
+          description
+          videoId
+          publishedAt
+          privacyStatus
+        }
       }
     }
   }

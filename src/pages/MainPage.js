@@ -5,18 +5,19 @@ import typography from "../utils/typography";
 
 import Nav from '../components/Nav'
 import Header from '../components/Header'
+import Carousel from '../components/Carousel'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
-const Container = styled.div``
-
-const MainPage = () => (
-  <Container>
+const MainPage = ({ data }) => (
+  <Wrap>
     <Nav />
     <Header />
+    <Carousel data={data} />
     <Contact />
     <Footer />
-  </Container>
+  </Wrap>
 )
+  const Wrap = styled.div``
 
 export default MainPage

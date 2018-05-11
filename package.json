@@ -5,6 +5,7 @@
   "author": "Timothy Hoang <timh1203@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.7",
+    "dotenv": "^5.0.1",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-catch-links": "^1.0.22",
@@ -13,6 +14,7 @@
     "gatsby-plugin-styled-components": "^2.0.11",
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-source-filesystem": "^1.5.35",
+    "gatsby-source-youtube": "^1.0.1",
     "gatsby-transformer-remark": "^1.7.40",
     "react-helmet": "^5.2.0",
     "react-icons-kit": "^1.1.4",

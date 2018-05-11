@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: 'Welcome to travelDev!',
@@ -8,7 +12,6 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-plugin-styled-components',
     'react-icons-kit',
-    // 'typography-theme-de-young',
     {       
       resolve: `gatsby-plugin-typography`,       
       options: {         
@@ -20,6 +23,14 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages'
+      },
+    },
+    {
+      resolve: 'gatsby-source-youtube',
+      options: {
+        channelId: 'UCUCXUCn0PEPrp7nAIFpFbOw',
+        apiKey: process.env.YOUTUBE_API_KEY,
+        maxVideos: 50 // Defaults to 50
       },
     },
   ],

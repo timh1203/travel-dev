@@ -20,12 +20,12 @@ const Form = () => (
   <form id='contact-form' method='POST'>
     <ul style={{ listStyle: 'none' }}>
       <li><InputWrap type='hidden' name='From' value='traveldev.net' /></li>
-      <li><InputWrap type="text" name="_gotcha" style={{ display: 'none' }} /></li>
+      <li><InputWrap type='text' name='_gotcha' style={{ display: 'none' }} /></li>
       <li><InputWrap type='text' name='First Name' placeholder='First Name' required /></li>
       <li><InputWrap type='text' name='Last Name' placeholder='Last Name' required /></li>
       <li><InputWrap type='email' name='Email' placeholder='Email' required /></li>
       <li><TextareaWrap id='text' name='Body' placeholder='Message' required /></li>
-      <li><InputWrap id="send" type="submit" value="Send" /></li>
+      <li><InputWrap type='button' id='send' type='submit' value='Send' /></li>
     </ul>
   </form>
 )
