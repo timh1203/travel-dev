@@ -19,9 +19,9 @@ const Video = (props) => (
 
 const Header = () => (
   <Container>
+      <Intro>Hi, I'm travelDev! 💚✈️💻</Intro>
+      <Description>I am a traveler and developer. I like to make videos and write articles.</Description>
       <Video />
-      <Intro>Hi, I'm travelDev!</Intro>
-      <Description>I am a traveler and developer. I also like to make videos and write articles.</Description>
   </Container>
 )
 

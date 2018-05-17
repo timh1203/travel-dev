@@ -3,28 +3,28 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 const Carousel = (data) => (
-  <Wrap>
+  <Section>
     <Title>Blog</Title>
     {data.data.allYoutubeVideo.edges.map(item => (
-      <WrapItem key={item.node.videoId}>
+      <ItemWrap key={item.node.videoId}>
         <LCol>
-          <a href={`https://www.youtube.com/watch?v=${item.node.videoId}`} target='_blank'>
-            <WrapImage src={item.node.thumbnail.url} alt={item.node.title} />
-          </a>
+          <iframe src={`http://www.youtube.com/embed/${item.node.videoId}`}
+          width="560" height="315" frameborder="0" allowFullScreen></iframe>
         </LCol>
         <RCol>
-        <a href={`https://www.youtube.com/watch?v=${item.node.videoId}`} target='_blank'>
-          <WrapName>{item.node.title}</WrapName>
+        <a href={`https://www.youtube.com/watch?v=${item.node.videoId}&showinfo=0`} target='_blank'>
+          <ItemName>{item.node.title}</ItemName>
         </a>
-        <WrapDesc>{item.node.description.substr(0, 200)}</WrapDesc>
+        <ItemDesc>{item.node.description.substr(0, 300) + '...'}</ItemDesc>
         </RCol>
-      </WrapItem>
+      </ItemWrap>
     ))}
-  </Wrap>
+    <a href={'https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw'} target='_blank'><ItemButton>More Videos</ItemButton></a>
+  </Section>
 )
-const Wrap = styled.section``
+const Section = styled.section``
 const Title = styled.h1``
-const WrapItem = styled.div`
+const ItemWrap = styled.div`
 display: flex;
 justify-content: center;
 `
@@ -38,10 +38,11 @@ const WrapImage = styled.img`
 width: 50%;
 height: 50%;
 `
-const WrapName = styled.p`
+const ItemName = styled.p`
 font-weight: bold;
 text-decoration: underline;
 `
-const WrapDesc = styled.p``
+const ItemDesc = styled.p``
+const ItemButton = styled.button``
 
 export default Carousel
