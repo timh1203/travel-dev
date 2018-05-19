@@ -3,46 +3,45 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 const Carousel = ({ data }) => (
-  <Section>
-    <Title>Blog</Title>
+  <Wrap_div>
+    <Title_h1>Blog</Title_h1>
     {data.allYoutubeVideo.edges.map(item => (
-      <ItemWrap key={item.node.videoId}>
-        <LCol>
+      <Item_div key={item.node.videoId}>
+        <LeftCol_div>
           <iframe src={`http://www.youtube.com/embed/${item.node.videoId}`}
           width="560" height="315" frameborder="0" allowFullScreen></iframe>
-        </LCol>
-        <RCol>
+        </LeftCol_div>
+        <RightCol_div>
         <a href={`https://www.youtube.com/watch?v=${item.node.videoId}&showinfo=0`} target='_blank'>
-          <ItemName>{item.node.title}</ItemName>
+          <Name_p>{item.node.title}</Name_p>
         </a>
-        <ItemDesc>{item.node.description.substr(0, 300) + '...'}</ItemDesc>
-        </RCol>
-      </ItemWrap>
+        <Desc_p>{item.node.description.substr(0, 300) + '...'}</Desc_p>
+        </RightCol_div>
+      </Item_div>
     ))}
-    <a href={'https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw'} target='_blank'><ItemButton>More Videos</ItemButton></a>
-  </Section>
+    <a href={'https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw'} target='_blank'>
+      <More_button>More Videos</More_button>
+    </a>
+  </Wrap_div>
 )
-const Section = styled.section``
-const Title = styled.h1``
-const ItemWrap = styled.div`
+
+const Wrap_div = styled.section``
+const Title_h1 = styled.h1``
+const Item_div = styled.div`
 display: flex;
 justify-content: center;
 `
-const LCol = styled.div`
+const LeftCol_div = styled.div`
 height: 50%;
 `
-const RCol = styled.div`
+const RightCol_div = styled.div`
 height: 50%;
 `
-const WrapImage = styled.img`
-width: 50%;
-height: 50%;
-`
-const ItemName = styled.p`
+const Name_p = styled.p`
 font-weight: bold;
 text-decoration: underline;
 `
-const ItemDesc = styled.p``
-const ItemButton = styled.button``
+const Desc_p = styled.p``
+const More_button = styled.button``
 
 export default Carousel

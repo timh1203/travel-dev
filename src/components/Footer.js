@@ -6,89 +6,97 @@ import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
 
 const Header = () => (
-  <Wrap>
-    <About></About>
-    <NavMini></NavMini>
-    <Social></Social>
-  </Wrap>
+  <Wrap_div>
+    <AboutWrap />
+    <NavWrap /> 
+    <SocialWrap />
+  </Wrap_div>
 )
-  const Wrap = styled.section`
-  background: #333333;
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  `
-  
-const About = () => (
-  <AboutWrap>
-    <Title>About</Title>
-    <Body>My personal website to share my journey in travel and web development. I love meeting new people, learning about tech advances of the future, and sharing outdoor adventures.</Body>
-    <Button>Read More</Button>
-  </AboutWrap>
-)
-  const AboutWrap = styled.div`
-  color: white;
-  flex: 1;
-  `
-  const Title = styled.h1`
-  color: white
-  `
-  const Body = styled.p`
-  color: white
-  `
-  const Button = styled.button`
-  width: 25%;
-  `
 
-const NavMini = () => (
-  <NavMiniWrap>
-    <Title>Navigation</Title>
+// components 
+const AboutWrap = () => (
+  <About_div>
+    <Title_h1>About</Title_h1>
+    <Body_p>My personal website to share my journey in travel and web development. I love meeting new people, learning about tech advances of the future, and sharing outdoor adventures.</Body_p>
+    <More_button>Read More</More_button>
+  </About_div>
+)
+const About_div = styled.div`
+color: white;
+flex: 1;
+`
+const Title_h1 = styled.h1`
+color: white
+`
+const Body_p = styled.p`
+color: white
+`
+const More_button = styled.button`
+width: 25%;
+`
+
+const NavWrap = () => (
+  <Nav_div>
+    <Title_h1>Navigation</Title_h1>
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>
     <Link to="/blog">Blog</Link>
     <Link to="/resources">Resources</Link>
-  </NavMiniWrap>
+  </Nav_div>
 )
-  const NavMiniWrap = styled.div`
-  display: flex;
-  flex-direction: column;
-  font-size: 1.2rem;
-  flex: 1;
-  `
+const Nav_div = styled.div`
+display: flex;
+flex-direction: column;
+font-size: 1.2rem;
+flex: 1;
+`
 
-const Social = () => (
-  <SocialWrap>
-    <SocialTitle>
-      Social
-    </SocialTitle>
-    <IconWrap>
-      <a href='https://twitter.com/travelDev' target="_blank">
+const SocialWrap = () => (
+  <Social_div>
+    <SocialTitle_h1>Social</SocialTitle_h1>
+    <Icon_div>
+      <IconLink_a href='https://twitter.com/travelDev' target="_blank">
         <Twitter />
-      </a>
-      <a href='https://www.youtube.com/c/traveldev' target="_blank">
+      </IconLink_a>
+      <IconLink_a href='https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw' target="_blank">
         <Youtube />
-      </a>
-      <a href='https://www.instagram.com/travel_dev' target="_blank">
+      </IconLink_a>
+      <IconLink_a href='https://www.instagram.com/travel_dev' target="_blank">
         <Instagram />
-      </a>
-    </IconWrap>
-  </SocialWrap>
+      </IconLink_a>
+    </Icon_div>
+  </Social_div>
 )
-  const SocialWrap = styled.div`
-  `
-  const SocialTitle = styled.h1`
-  flex: 1;
-  color: white;
-  flex: 1 1 100%;
-  `
-  const IconWrap = styled.div`
-  display: flex;
-  flex-direction: column;
-  `
-  const IconContainer = withBaseIcon({ size: '15%' })
-  const Twitter = () => <IconContainer icon={twitterSquare} />
-  const Youtube = () => <IconContainer icon={youtubeSquare} />
-  const Instagram = () => <IconContainer icon={instagram} />
+const IconWrap = withBaseIcon({ size: '30%' })
+const Twitter = () => <IconWrap icon={twitterSquare} />
+const Youtube = () => <IconWrap icon={youtubeSquare} />
+const Instagram = () => <IconWrap icon={instagram} />
+const Social_div = styled.div``
+const SocialTitle_h1 = styled.h1`
+flex: 1;
+color: white;
+flex: 1 1 100%;
+`
+const Icon_div = styled.div`
+display: flex;
+flex-wrap: wrap;
+`
+const IconLink_a = styled.a`
+flex: 1 1 100%;
+display: block;
+color: #555bfb;
+& div {
+  width: 100px;
+}
+`
+
+// stylings
+const Wrap_div = styled.div`
+background: #333333;
+color: white;
+display: flex;
+justify-content: space-around;
+width: 100%;
+`
 
 export default Header
