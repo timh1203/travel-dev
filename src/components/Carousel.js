@@ -2,10 +2,10 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-const Carousel = (data) => (
+const Carousel = ({ data }) => (
   <Section>
     <Title>Blog</Title>
-    {data.data.allYoutubeVideo.edges.map(item => (
+    {data.allYoutubeVideo.edges.map(item => (
       <ItemWrap key={item.node.videoId}>
         <LCol>
           <iframe src={`http://www.youtube.com/embed/${item.node.videoId}`}

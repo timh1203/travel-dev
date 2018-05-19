@@ -1,8 +1,10 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import MainPage from '../pages/MainPage'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -19,7 +21,9 @@ const Layout = ({ children, data }) => (
       paddingTop: 0,
       textAlign: 'center',
     }}>
-    <MainPage data={data} />
+      <Nav />
+      {children()}
+      <Footer />
     </div>
   </div>
 )
@@ -35,24 +39,6 @@ export const query = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-
-    allYoutubeVideo(limit: 5) {
-      edges {
-        node {
-          id
-          title
-          thumbnail {
-            width
-            height
-            url
-          }
-          description
-          videoId
-          publishedAt
-          privacyStatus
-        }
       }
     }
   }

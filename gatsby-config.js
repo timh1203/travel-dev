@@ -4,12 +4,14 @@ module.exports = {
   siteMetadata: {
     title: 'Welcome to travelDev!',
   },
+  pathPrefix: '/',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
     'gatsby-plugin-styled-components',
     'react-icons-kit',
+    'gatsby-link',
     {       
       resolve: `gatsby-plugin-typography`,       
       options: {         
