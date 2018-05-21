@@ -1,19 +1,20 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import typography from "../utils/typography"
+import typography from '../utils/typography'
+
 import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 import Contact from '../components/Contact'
+import Div from '../components/common/Div'
 
 const MainPage = ({ data }) => (
-  <Wrap_div>
+  <Div>
     <Header />
     <Carousel data={data} />
     <Contact />
-  </Wrap_div>
+  </Div>
 )
-const Wrap_div = styled.div``
 
 export const query = graphql`
   query IndexQuery {
