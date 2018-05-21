@@ -2,10 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { Section, H1, Image, P } from '../assets/Matrix'
-// import Section from '../components/common/Section'
-// import H1 from '../components/common/H1'
-// import Image from '../components/common/Image'
-// import P from '../components/common/P'
 
 const AboutPage = () => (
   <Section>

@@ -5,10 +5,6 @@ import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
 import { Div, H1, P, Button } from '../assets/Matrix'
-// import Div from './common/Div'
-// import H1 from './common/H1'
-// import P from './common/P'
-// import Button from './common/Button'
 
 const Header = () => (
   <Div modifiers={['displayFlex', 'justifyAround', 'colorWhite', 'backgroundGray']}>

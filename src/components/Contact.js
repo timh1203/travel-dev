@@ -5,13 +5,6 @@ import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
 import { Div, H1, Form, Ul, Li, Input, Textarea } from '../assets/Matrix'
-// import Div from './common/Div'
-// import H1 from './common/H1'
-// import Form from './common/Form'
-// import Ul from './common/Ul'
-// import Li from './common/Li'
-// import Input from './common/Input'
-// import Textarea from './common/Textarea'
 
 const Contact = () => (
   <Div>

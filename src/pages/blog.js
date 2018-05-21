@@ -2,10 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { Section, Div, H3, P } from '../assets/Matrix'
-// import Section from '../components/common/Section'
-// import Div from '../components/common/Div'
-// import H3 from '../components/common/H3'
-// import P from '../components/common/P'
 
 const BlogPage = ({data}) => (
   <Section>

@@ -79,11 +79,17 @@ export const Modifiers = {
   `,
 
   // Font
+  fontSmall: () => `
+    font-size: 0.9rem;
+  `,
   fontLarge: () => `
     font-size: 1.2rem;
   `,
   fontLarger: () => `
     font-size: 1.5rem;
+  `,
+  fontLargest: () => `
+    font-size: 1.8rem;
   `,
   underline: () => `
     text-decoration: underline;

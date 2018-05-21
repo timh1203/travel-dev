@@ -6,7 +6,6 @@ import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 import Contact from '../components/Contact'
 import { Div } from '../assets/Matrix'
-// import Div from '../components/common/Div'
 
 const MainPage = ({ data }) => (
   <Div>
