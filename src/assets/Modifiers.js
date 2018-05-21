@@ -6,6 +6,9 @@ export const Modifiers = {
   displayInline: () => `
     display: inline;
   `,
+  displayBlock: () => `
+    display: block;
+  `,
   displayNone: () => `
     display: none;
   `,

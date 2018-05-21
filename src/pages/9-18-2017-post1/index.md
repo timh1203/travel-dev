@@ -6,9 +6,11 @@ author: 'Timothy Hoang'
 tagline: 'Pharmacist to Developer'
 image: 'https://i.imgur.com/CiOmClX.png'
 tags: 'Git, Github, Version Control With Git, Github and Collaboration, Richard Kalehoff, Udacity'
+medium: 'https://medium.com/@timh1203'
 ---
 
 ## Why I didn't learn this skill initially
+
 I never placed much importance in learning Git and Github when I initially started learning web development. It was hammered that learning core programming with HTML, CSS, and JavaScript is more important. You need to practice your chops, learn fundamentals concepts, and build projects. That last part was when I realized that it became absolutely imperative to finally learn about this unforgiving black screen.
 
 I was just like everyone else by starting out on Codecademy and fooling around with all the different tutorials. "Learn HTML & CSS", "Learn JavaScript", "Make A Website", "Learn Git", and the list of short courses go on. Then, I experienced it again when I was doing [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/) with Colt Steele. Don't get me wrong by saying that this is a really great course to learn web development; but, it still didn't give me that kind of depth I needed. Most of these tutorials on these different courses throw Git/Github into the mix but they never actually taught you actually how to use it in a real project with a team. I understand it is necessary because they need to focus on their main course topic. Sporadically, I ran across Git/Github through my web development journey but still did not take a serious attitude with it.
