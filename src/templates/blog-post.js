@@ -1,17 +1,26 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { Div, H1, H2, H3, Img, A, P } from '../assets/Matrix'
 
 export default function Template({data}) {
   const post = data.markdownRemark
 
   return(
-    <div>
-      <Link to="/blog">Go Back</Link>
-      <hr />
-      {/* <h1>{post.frontmatter.title}</h1>
-      <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date}</h4> */}
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-    </div>
+    <Div modifiers={['textLeft']}>
+      <Div modifiers={['textCenter']}>
+        <H1>{post.frontmatter.title}</H1>
+        <H2>By: {post.frontmatter.author}</H2>
+        <H3>{post.frontmatter.date}</H3>
+        <P>Tags: {post.frontmatter.tags}</P>
+      </Div>
+
+      <A href="https://unsplash.com/">
+        <Img title="Book Photo by Alex Read" src={post.frontmatter.image} alt="Book Photo by Alex Read" 
+        style={{width: '60%', display: 'block', marginLeft: 'auto', marginRight: 'auto'}} />
+      </A>
+
+      <Div dangerouslySetInnerHTML={{ __html: post.html }} />
+    </Div>
   )
 }
 
@@ -24,6 +33,8 @@ export const postQuery = graphql`
         title
         author
         date
+        image
+        tags
       }
     }
   }

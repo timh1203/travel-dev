@@ -40,7 +40,10 @@ export const Modifiers = {
   textCenter: () => `
     text-align: center;
   `,
-  margin0Auto: () => `
+  textLeft: () => `
+    text-align: left;
+  `,
+  m0Auto: () => `
     margin: 0 auto;
   `,
   textMiddle: () => `
@@ -56,6 +59,9 @@ export const Modifiers = {
   `,
   w50: () => `
     width: 50%;
+  `,
+  w75: () => `
+    width: 75%;
   `,
   w100: () => `
     width: 100%;

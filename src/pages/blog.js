@@ -1,20 +1,23 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { Section, Div, H3, P } from '../assets/Matrix'
+import { Section, Div, H3, P, Img } from '../assets/Matrix'
 
-const BlogPage = ({data}) => (
+const BlogPage = ({ data }) => (
   <Section>
     <P>Latest Posts</P>
     {data.allMarkdownRemark.edges.map(post => (
       <Div key={post.node.id}>
+        <Link to={post.node.frontmatter.path}>
+          <Img modifiers={['w25']}
+          src={post.node.frontmatter.image} 
+          title="Photo by Alex Read" 
+          alt="Book Photo by Alex Read" />
+        </Link>
         <H3>{post.node.frontmatter.title}</H3>
         <P>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</P>
-        <br />
-        <br />
-        <Link to={post.node.frontmatter.pasth}>Read More...</Link>
-        <br />
-        <br />
+        <P>Tags: {post.node.frontmatter.tags}</P>
+        <Link to={post.node.frontmatter.path}>Read More...</Link>
         <hr />
       </Div>
     ))}
@@ -32,6 +35,8 @@ export const pageQuery = graphql`
             title
             date
             author
+            image
+            tags
           }
         }
       }

@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import logo from '../assets/logo.png'
-import { Div, Image } from '../assets/Matrix'
+import { Div, Img } from '../assets/Matrix'
 
 const Nav = () => (
   <Div>
@@ -12,7 +12,7 @@ const Nav = () => (
       <Link to="/blog">📘 Blog</Link>
       <Link to="/resources">🌐 Resources</Link>
     </Div>
-    <Image src={logo} />
+    <Img src={logo} />
   </Div>
 )
 

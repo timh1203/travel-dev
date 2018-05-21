@@ -22,7 +22,22 @@ export const H1 = styled.h1`
 ${applyStyleModifiers(Modifiers)}
 `
 
+export const H2 = styled.h2`
+${applyStyleModifiers(Modifiers)}
+`
+
 export const H3 = styled.h3`
+${applyStyleModifiers(Modifiers)}
+`
+
+export const H4 = styled.h4`
+${applyStyleModifiers(Modifiers)}
+`
+
+export const H5 = styled.h5`
+${applyStyleModifiers(Modifiers)}
+`
+export const H6 = styled.h6`
 ${applyStyleModifiers(Modifiers)}
 `
 
@@ -30,7 +45,7 @@ export const Iframe = styled.iframe`
 ${applyStyleModifiers(Modifiers)}
 `
 
-export const Image = styled.img`
+export const Img = styled.img`
 ${applyStyleModifiers(Modifiers)}
 `
 
