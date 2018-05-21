@@ -2,9 +2,10 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import logo from '../assets/logo.png'
+import { Div, Image } from '../assets/Matrix' 
 
-import Div from './common/Div'
-import Image from './common/Image'
+// import { Div, Image } from './common/common'
+// import Image from './common/Image'
 
 const Nav = () => (
   <Div>

@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-
-import Section from '../components/common/Section'
-import H1 from '../components/common/H1'
-import P from '../components/common/P'
+import { Section, H1, P } from '../assets/Matrix'
+// import Section from '../components/common/Section'
+// import H1 from '../components/common/H1'
+// import P from '../components/common/P'
 
 const ResourcesPage = () => (
   <Section>

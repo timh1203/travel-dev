@@ -1,7 +1,10 @@
-export const modifiers = {
-  // flexbox
+export const Modifiers = {
+  // Display
   displayFlex: () => `
     display: flex;
+  `,
+  displayInline: () => `
+    display: inline;
   `,
   displayNone: () => `
     display: none;
@@ -28,17 +31,26 @@ export const modifiers = {
     flex: 1 1 100%;
   `,
 
-  // box
+  // Box Model
   p1: () => `
     padding: 1rem;
   `,
   
-  // alignment
+  // Alignment
   textCenter: () => `
     text-align: center;
   `,
+  margin0Auto: () => `
+    margin: 0 auto;
+  `,
+  textMiddle: () => `
+    vertical-align: middle;
+  `,
+  textTop: () => `
+    vertical-align: top;
+  `,
   
-  // length
+  // Length
   w25: () => `
     width: 25%;
   `,
@@ -58,7 +70,7 @@ export const modifiers = {
     height: 75%;
   `,
 
-  // colors
+  // Color
   colorWhite: () => `
     color: white;
   `,
@@ -66,7 +78,7 @@ export const modifiers = {
     background: #333333;
   `,
 
-  // font
+  // Font
   fontLarge: () => `
     font-size: 1.2rem;
   `,
@@ -80,7 +92,7 @@ export const modifiers = {
     font-weight: bold;
   `,
 
-  // miscellaneous
+  // Misc
   listStyleNone: () => `
     list-style: none;
   `,

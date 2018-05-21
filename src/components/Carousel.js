@@ -1,13 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-
-import Div from './common/Div'
-import H1 from './common/H1'
-import A from './common/A'
-import P from './common/P'
-import Iframe from './common/IFrame'
-import Button from './common/Button'
+import { Div, H1, A, P, Iframe, Button } from '../assets/Matrix'
+// import Div from './common/Div'
+// import H1 from './common/H1'
+// import A from './common/A'
+// import P from './common/P'
+// import Iframe from './common/IFrame'
+// import Button from './common/Button'
 
 const Carousel = ({ data }) => (
   <Div>
