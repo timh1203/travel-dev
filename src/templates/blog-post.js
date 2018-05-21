@@ -12,14 +12,14 @@ export default function Template({data}) {
         <H2>By: {post.frontmatter.author}</H2>
         <H3>{post.frontmatter.date}</H3>
         <P>Tags: {post.frontmatter.tags}</P>
-        <A href={post.frontmatter.medium}><P>@Medium</P></A>
+        <A href='https://medium.com/@timh1203'><P>@Medium</P></A>
       </Div>
 
       <A href="https://unsplash.com/">
         <Img modifiers={['w50', 'displayBlock', 'm0Auto']}
         src={post.frontmatter.image}
-        title="Book Photo by Alex Read"        
-        alt="Book Photo by Alex Read" 
+        title={'Photo by ' + post.frontmatter.photoAuthor}       
+        alt={'Book Photo by ' + post.frontmatter.photoAuthor}
         />
       </A>
 
@@ -39,7 +39,7 @@ export const postQuery = graphql`
         date
         image
         tags
-        medium
+        photoAuthor
       }
     }
   }

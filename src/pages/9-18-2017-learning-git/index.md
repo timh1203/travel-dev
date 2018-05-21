@@ -6,7 +6,7 @@ author: 'Timothy Hoang'
 tagline: 'Pharmacist to Developer'
 image: 'https://i.imgur.com/CiOmClX.png'
 tags: 'Git, Github, Version Control With Git, Github and Collaboration, Richard Kalehoff, Udacity'
-medium: 'https://medium.com/@timh1203'
+photoAuthor: 'Alex Read'
 ---
 
 ## Why I didn't learn this skill initially
