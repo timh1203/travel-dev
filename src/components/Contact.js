@@ -5,41 +5,33 @@ import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
 
+import Div from './common/Div'
+import H1 from './common/H1'
+import Form from './common/Form'
+import Ul from './common/Ul'
+import Li from './common/Li'
+import Input from './common/Input'
+import Textarea from './common/Textarea'
+
 const Contact = () => (
-  <Wrap_div>
-    <Title_h1>Contact Me</Title_h1>
+  <Div>
+    <H1>✉️ Contact</H1>
     <FormWrap />
-  </Wrap_div>
+  </Div>
 )
 
-// components
 const FormWrap = () => (
-  <Form_form id='contact-form' method='POST'>
-    <Form_ul>
-      <Form_li><InputWrap type='hidden' name='From' value='traveldev.net' /></Form_li>
-      <Form_li><InputWrap type='text' name='_gotcha' style={{ display: 'none' }} /></Form_li>
-      <Form_li><InputWrap type='text' name='First Name' placeholder='First Name' required /></Form_li>
-      <Form_li><InputWrap type='text' name='Last Name' placeholder='Last Name' required /></Form_li>
-      <Form_li><InputWrap type='email' name='Email' placeholder='Email' required /></Form_li>
-      <Form_li><TextareaWrap id='text' name='Body' placeholder='Message' required /></Form_li>
-      <Form_li><InputWrap type='button' id='send' type='submit' value='Send' /></Form_li>
-    </Form_ul>
-  </Form_form>
+  <Form id='contact-form' method='POST'>
+    <Ul modifiers={['listStyleNone']}>
+      <Li><Input modifiers={['displayNone']} type='hidden' name='From' value='traveldev.net' /></Li>
+      <Li><Input modifiers={['w25']} type='text' name='First Name' placeholder='First Name' required /></Li>
+      <Li><Input modifiers={['w25']}type='text' name='Last Name' placeholder='Last Name' required /></Li>
+      <Li><Input modifiers={['w25']}type='email' name='Email' placeholder='Email' required /></Li>
+      <Li><Textarea modifiers={['w25']}id='text' name='Body' placeholder='Message' required /></Li>
+      <Li><Input type='button' id='send' type='submit' value='Send' /></Li>
+      <Li><Input modifiers={['visibilityHidden']} type='text' name='_gotcha' /></Li>
+    </Ul>
+  </Form>
 )
-const InputWrap = styled.input`
-width: 25%;
-`
-const TextareaWrap = styled.textarea`
-width: 25%;
-`
-const Form_form = styled.form``
-const Form_ul = styled.ul`
-list-style: none;
-`
-const Form_li = styled.li``
-
-// stylings
-const Wrap_div = styled.div``
-const Title_h1 = styled.h1``
 
 export default Contact

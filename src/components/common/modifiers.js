@@ -3,6 +3,12 @@ export const modifiers = {
   displayFlex: () => `
     display: flex;
   `,
+  displayNone: () => `
+    display: none;
+  `,
+  visibilityHidden: () =>  `
+    visibility:hidden;
+  `,
   flexColumn: () => `
     flex-direction: column;
   `,
