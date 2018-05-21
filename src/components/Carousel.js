@@ -13,12 +13,12 @@ const Carousel = ({ data }) => (
   <Div>
     <H1>📹 Videos</H1>
     {data.allYoutubeVideo.edges.map(item => (
-      <Div modifiers={['displayFlex', 'justifyCenter']} key={item.node.videoId}>
-        <Div modifers={['h50', 'p1']}>
+      <Div modifiers={['displayFlex', 'justifyAround', 'w75']} key={item.node.videoId}>
+        <Div modifers={['flex1']}>
           <Iframe src={`http://www.youtube.com/embed/${item.node.videoId}`}
           width="560" height="315" frameBorder="1" allowFullScreen></Iframe>
         </Div>
-        <Div modifiers={['h50', 'p1']}>
+        <Div modifiers={['w50', 'p1']}>
           <A href={`https://www.youtube.com/watch?v=${item.node.videoId}&showinfo=0`} target='_blank'>
             ♦️ <P modifiers={['bold', 'underline']}> {item.node.title}</P>
           </A>
