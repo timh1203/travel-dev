@@ -27,6 +27,9 @@ export const Modifiers = {
   justifyAround: () => `
     justify-content: space-around;
   `,
+  itemsCenter: () => `
+    align-items: center;
+  `,
   flex1: () => `
     flex: 1;
   `,
