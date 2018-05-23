@@ -24,8 +24,14 @@ export const Modifiers = {
   justifyCenter: () => `
     justify-content: center;
   `,
+  justifyBetween: () => `
+    justify-content: space-between;
+  `,
   justifyAround: () => `
     justify-content: space-around;
+  `,
+  alignCenter: () => `
+    align-content: center;
   `,
   itemsCenter: () => `
     align-items: center;
@@ -80,6 +86,12 @@ export const Modifiers = {
   `,
   h75: () => `
     height: 75%;
+  `,
+  mh50: () => `
+    max-height: 50%;
+  `,
+  mh300px: () => `
+    max-height: 300px;
   `,
 
   // Color
