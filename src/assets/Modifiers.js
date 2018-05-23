@@ -47,6 +47,16 @@ export const Modifiers = {
   p1: () => `
     padding: 1rem;
   `,
+  my3Auto: () => `
+    margin: 3rem auto;
+  `,
+  my6: () => `
+    margin: 6rem 0;
+  `,
+  bLR: () => `
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+  `,
   
   // Alignment
   textCenter: () => `
