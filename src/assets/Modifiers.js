@@ -47,6 +47,9 @@ export const Modifiers = {
   p1: () => `
     padding: 1rem;
   `,
+  pb2rem: () => `
+    padding-bottom: 2rem;
+  `,
   my3Auto: () => `
     margin: 3rem auto;
   `,

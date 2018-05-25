@@ -22,7 +22,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
+        name: 'pages',
       },
     },
     {
@@ -30,15 +30,15 @@ module.exports = {
       options: {
         channelId: 'UCUCXUCn0PEPrp7nAIFpFbOw',
         apiKey: process.env.YOUTUBE_API_KEY,
-        maxVideos: 5
+        maxVideos: 5,
       },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Cabin`,
-          `Raleway`
+          `Raleway`,
+          `Abril Fatface`,
         ]
       },
     },

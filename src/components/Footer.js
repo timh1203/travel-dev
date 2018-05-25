@@ -7,7 +7,7 @@ import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
 import { Div, H1, P, Button } from '../assets/Matrix'
 
 const Header = () => (
-  <Div modifiers={['displayFlex', 'justifyAround', 'colorWhite', 'backgroundGray']}>
+  <Div modifiers={['displayFlex', 'justifyAround', 'colorWhite', 'backgroundGray', 'pb2rem']}>
     <About />
     <Nav /> 
     <Social />
@@ -15,15 +15,15 @@ const Header = () => (
 )
 
 const About = () => (
-  <Div modifiers={['flex1']}>
+  <Div modifiers={['w25']} >
     <H1 modifiers={['colorWhite']}>About</H1>
     <P>My personal website to share my journey in travel and web development. I love meeting new people, learning about tech advances of the future, and sharing outdoor adventures.</P>
-    <Button>Read More</Button>
+    <Link to="/about"><Button>Read More</Button></Link>
   </Div>
 )
 
 const Nav = () => (
-  <Div modifiers={['displayFlex', 'flexColumn', 'flex1', 'fontLarge']}>
+  <Div modifiers={['displayFlex', 'flexColumn', 'justifyBetween', 'w25', 'fontLarge']}>
     <H1 modifiers={['colorWhite']}>Navigation</H1>
     <Link to="/">🏠 Home</Link>
     <Link to="/about">👤 About</Link>
@@ -33,7 +33,7 @@ const Nav = () => (
 )
 
 const Social = () => (
-  <Div modifiers={['displayFlex', 'flexColumn', 'flex1', 'fontLarge']}>
+  <Div modifiers={['displayFlex', 'flexColumn', 'w25', 'fontLarge']}>
     <H1 modifiers={['colorWhite']}>Social</H1>
     <A_iconlink href='https://twitter.com/travelDev' target="_blank">
       <Twitter />
@@ -49,7 +49,7 @@ const Social = () => (
     </A_iconlink>
   </Div>
 )
-const IconWrap = withBaseIcon({ size: '30%' })
+const IconWrap = withBaseIcon({ size: '25%' })
 const Twitter = () => <IconWrap icon={twitterSquare} />
 const Youtube = () => <IconWrap icon={youtubeSquare} />
 const Instagram = () => <IconWrap icon={instagram} />
@@ -57,6 +57,7 @@ const A_iconlink = styled.a`
 flex: 1 1 100%;
 display: block;
 color: #555bfb;
+
 & div {
   width: 100px;
 }

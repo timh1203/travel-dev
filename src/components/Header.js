@@ -4,12 +4,20 @@ import styled from 'styled-components'
 import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
-import { Section, Div, H1, P, Object } from '../assets/Matrix'
+import { Section, Div, Title, H1, H2, P, Object } from '../assets/Matrix'
 
 const Header = () => (
   <Section>
-      <H1>Hi, I'm travelDev! 💚✈️💻</H1>
-      <P>I am a traveler and developer. I like to make videos and write articles.</P>
+      <Title>travelDev</Title>
+      <Object 
+        width="560" 
+        height="315" 
+        data="https://www.youtube.com/embed/d1fnzB8M3UM?rel=0&amp;controls=0&amp;showinfo=0" 
+        frameBorder="0" 
+        allow="autoplay; encrypted-media" 
+        allowFullScreen 
+      /> 
+      <H2>I like to travel, code, and make videos. 💚✈️💻</H2>
       <Div>
         <A_iconlink href='https://twitter.com/travelDev' target="_blank">
           <Twitter />
@@ -21,15 +29,6 @@ const Header = () => (
           <Instagram />
         </A_iconlink>
       </Div>
-
-      <Object 
-        width="560" 
-        height="315" 
-        data="https://www.youtube.com/embed/d1fnzB8M3UM?rel=0&amp;controls=0&amp;showinfo=0" 
-        frameBorder="0" 
-        allow="autoplay; encrypted-media" 
-        allowFullScreen 
-      /> 
   </Section>
 )
 

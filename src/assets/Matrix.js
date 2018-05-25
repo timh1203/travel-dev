@@ -12,10 +12,10 @@ ${applyStyleModifiers(Modifiers)}
 `
 
 export const Button = styled.button`
-border: 1px solid #555bfb;
-border-radius: 2%;
+border: 2px solid black;
+border-radius: 5%;
 color: white;
-background: black;
+background: #555bfb;
 transition: ease all 0.5s;
 
 &:hover {
@@ -36,13 +36,22 @@ export const Form = styled.form`
 ${applyStyleModifiers(Modifiers)}
 `
 
+export const Title = styled.h1`
+font-family: 'Modak';
+font-family: 'Abril Fatface';
+font-weight: 800;
+font-size: 6rem;
+color: #292929;
+text-shadow: 1px 4px 2px gray;
+${applyStyleModifiers(Modifiers)}
+`
 export const H1 = styled.h1`
-font-family: 'Cabin';
 ${applyStyleModifiers(Modifiers)}
 `
 
 export const H2 = styled.h2`
-font-family: 'Cabin';
+color: gray;
+font-family: 'Raleway';
 ${applyStyleModifiers(Modifiers)}
 `
 
@@ -74,6 +83,8 @@ ${applyStyleModifiers(Modifiers)}
 `
 
 export const Input = styled.input`
+padding: 0.5%;
+border-radius: 5%;
 ${applyStyleModifiers(Modifiers)}
 `
 
@@ -95,6 +106,8 @@ ${applyStyleModifiers(Modifiers)}
 `
 
 export const Textarea = styled.textarea`
+padding: 0.5%;
+border-radius: 5%;
 ${applyStyleModifiers(Modifiers)}
 `
 
