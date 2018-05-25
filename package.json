@@ -9,6 +9,7 @@
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-catch-links": "^1.0.22",
+    "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
     "gatsby-plugin-styled-components": "^2.0.11",

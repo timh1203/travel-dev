@@ -53,9 +53,13 @@ export const Modifiers = {
   my6: () => `
     margin: 6rem 0;
   `,
-  bLR: () => `
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
+  mt2rem: () => `
+    margin-top: 2rem;
+  `,
+  frame: () => `
+    border: 1px solid black;
+    box-shadow: 1px 3px 3px gray;
+    border-radius: 10px;
   `,
   
   // Alignment
@@ -110,6 +114,9 @@ export const Modifiers = {
   `,
   backgroundGray: () => `
     background: #333333;
+  `,
+  colorBlue: () => `
+    color: #555bfb;
   `,
 
   // Font

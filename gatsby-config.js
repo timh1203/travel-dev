@@ -30,7 +30,16 @@ module.exports = {
       options: {
         channelId: 'UCUCXUCn0PEPrp7nAIFpFbOw',
         apiKey: process.env.YOUTUBE_API_KEY,
-        maxVideos: 50 // Defaults to 50
+        maxVideos: 5
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Cabin`,
+          `Raleway`
+        ]
       },
     },
   ],

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Section, Div, H1, H2, H3, P, A, Img } from '../assets/Matrix'
 
 const ResourcesPage = () => (
-  <Section>
+  <Section modifiers={['w75', 'm0Auto']}>
     <H1 modifiers={['my3']}>🌐 Resources</H1>
     <hr />
     <Div modifiers={['textLeft', 'my3Auto']}>
@@ -267,13 +267,13 @@ const ResourcesPage = () => (
       <Div modifiers={['displayFlex', 'justifyCenter', 'textCenter']}>
         <Div modifiers={['flex1']}>
           <Div modifiers={['w100', 'margin0Auto', 'justifyCenter']}>
-            <A href='https://www.namecheap.com/' target='_blank'>
+            <A href='https://namecheap.pxf.io/c/1244000/386170/5618' target='_blank'>
               <Img modifiers={['mh300px']} src='https://i.imgur.com/VHlW4oG.png' alt='Namecheap Domain Registration'/>
             </A>
           </Div>
           <Div modifiers={['w75', 'm0Auto']}>
             <P>
-              ♦️ <A href="https://www.namecheap.com/" target='_blank'>Namecheap</A> allows you to buy custom domain names which I prefer over GoDaddy. There seems to be less promotion and it’s much easier to use. There’s a dashboard to keep of all the domain names you purchase and reminds you when domains start expiring.
+              ♦️ <A href="https://namecheap.pxf.io/c/1244000/386170/5618" target='_blank'>Namecheap</A> allows you to buy custom domain names which I prefer over GoDaddy. There seems to be less promotion and it’s much easier to use. There’s a dashboard to keep of all the domain names you purchase and reminds you when domains start expiring.
             </P>
           </Div>
         </Div>
@@ -293,13 +293,13 @@ const ResourcesPage = () => (
 
         <Div modifiers={['flex1']}>
           <Div>
-            <A href='http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=33802' target='_blank'>
+            <A href='http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=48068&tid1=traveldev' target='_blank'>
               <Img modifiers={['mh300px']} src='https://i.imgur.com/3OZAEvD.png' alt='Divi Themes by Elegant Themes'/>
             </A>
           </Div>
           <Div modifiers={['w75', 'm0Auto']}>
             <P>
-              ♦️ <A href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=33802" target='_blank'>Divi Theme by Elegant Themes</A> is a modern solution that makes website building easy with building blocks and modules. With complete access to all themes including 87 at this point, extensive tutorial section, and unlimited website usage; it’s a phenomenal value for the price. I’ve created more than 3 websites with their product and love it. Coding knowledge is NOT required but you won’t be limited if you want to use CSS either. There’s split testing, visual builder, template saver, and many other functions. Play with their demo and see if it’s a good fit for you. Please use <A href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=33802">my affiliate link</A> if you decide to get it!
+              ♦️ <A href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=48068&tid1=traveldev" target='_blank'>Divi Theme by Elegant Themes</A> is a modern solution that makes website building easy with building blocks and modules. With complete access to all themes including 87 at this point, extensive tutorial section, and unlimited website usage; it’s a phenomenal value for the price. I’ve created more than 3 websites with their product and love it. Coding knowledge is NOT required but you won’t be limited if you want to use CSS either. There’s split testing, visual builder, template saver, and many other functions. Play with their demo and see if it’s a good fit for you. Please use <A href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=48068&tid1=traveldev">my affiliate link</A> if you decide to get it!
             </P>
           </Div>
         </Div>

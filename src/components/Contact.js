@@ -4,13 +4,13 @@ import styled from 'styled-components'
 import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
-import { Div, H1, Form, Ul, Li, Input, Textarea } from '../assets/Matrix'
+import { Section, H1, Form, Ul, Li, Button, Input, Textarea } from '../assets/Matrix'
 
 const Contact = () => (
-  <Div>
+  <Section>
     <H1>✉️ Contact</H1>
     <FormWrap />
-  </Div>
+  </Section>
 )
 
 const FormWrap = () => (
@@ -21,7 +21,7 @@ const FormWrap = () => (
       <Li><Input modifiers={['w25']}type='text' name='Last Name' placeholder='Last Name' required /></Li>
       <Li><Input modifiers={['w25']}type='email' name='Email' placeholder='Email' required /></Li>
       <Li><Textarea modifiers={['w25']}id='text' name='Body' placeholder='Message' required /></Li>
-      <Li><Input type='button' id='send' type='submit' value='Send' /></Li>
+      <Li><Button id='send' type='submit' value='Send'>Send</Button></Li>
       <Li><Input modifiers={['visibilityHidden']} type='text' name='_gotcha' /></Li>
     </Ul>
   </Form>

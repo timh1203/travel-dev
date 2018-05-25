@@ -9,7 +9,7 @@ const BlogPage = ({ data }) => (
     {data.allMarkdownRemark.edges.map(post => (
       <Div key={post.node.id}>
         <Link to={post.node.frontmatter.path}>
-          <Img modifiers={['w50']}
+          <Img modifiers={['w50', 'frame']}
           src={post.node.frontmatter.image} 
           title="Photo by Alex Read" 
           alt="Book Photo by Alex Read" 

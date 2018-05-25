@@ -2,30 +2,24 @@ import React from 'react'
 import Link from 'gatsby-link'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import { Div, Container } from '../assets/Matrix'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <Container>
     <Helmet title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: "travelDev's blog" },
         { name: 'keywords', content: 'travel, development' },
       ]}
     />
-    <div style={{
-      margin: '2rem auto',
-      maxWidth: '90%',
-      padding: '0px 1.0875rem 1.45rem',
-      paddingTop: 0,
-      textAlign: 'center',
-    }}>
+    <Div modifiers={['mt2rem', 'textCenter']}>
       <Nav />
       {children()}
       <Footer />
-    </div>
-  </div>
+    </Div>
+  </Container>
 )
 
 Layout.propTypes = {

@@ -6,7 +6,7 @@ import { Div, Img } from '../assets/Matrix'
 
 const Nav = () => (
   <Div>
-    <Div modifiers={['displayFlex', 'justifyAround', 'itemsCenter', 'fontLarger', 'underline']}>
+    <Div modifiers={['displayFlex', 'justifyAround', 'itemsCenter', 'fontLarger']}>
       <Link to="/">🏠 Home</Link>
       <Link to="/about/">👤 About</Link>
       <Img src={logo} />

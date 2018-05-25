@@ -4,10 +4,10 @@ import styled from 'styled-components'
 import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
-import { Div, H1, P, Object } from '../assets/Matrix'
+import { Section, Div, H1, P, Object } from '../assets/Matrix'
 
 const Header = () => (
-  <Div>
+  <Section>
       <H1>Hi, I'm travelDev! 💚✈️💻</H1>
       <P>I am a traveler and developer. I like to make videos and write articles.</P>
       <Div>
@@ -30,7 +30,7 @@ const Header = () => (
         allow="autoplay; encrypted-media" 
         allowFullScreen 
       /> 
-  </Div>
+  </Section>
 )
 
 const IconWrap = withBaseIcon({ size: '25%' })
@@ -39,6 +39,7 @@ const Youtube = () => <IconWrap icon={youtubeSquare} />
 const Instagram = () => <IconWrap icon={instagram} />
 const A_iconlink = styled.a`
 color: #555bfb;
+
 &:hover {
   color: black;
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { Div, H1, A, P, Iframe, Button } from '../assets/Matrix'
+import { Section, Div, H1, A, P, Iframe, Button } from '../assets/Matrix'
 
 const Carousel = ({ data }) => (
-  <Div>
+  <Section>
     <H1>📹 Videos</H1>
     {data.allYoutubeVideo.edges.map(item => (
       <Div modifiers={['displayFlex', 'justifyAround', 'w75', 'm0Auto']} key={item.node.videoId}>
@@ -23,7 +23,7 @@ const Carousel = ({ data }) => (
     <A href={'https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw'} target='_blank'>
       <Button>More Videos</Button>
     </A>
-  </Div>
+  </Section>
 )
 
 export default Carousel
