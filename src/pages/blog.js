@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { Section, Div, H3, P, Img } from '../assets/Matrix'
+import { Section, Div, H1, H3, P, Img } from '../assets/Matrix'
 
 const BlogPage = ({ data }) => (
   <Section>
-    <P>Latest Posts</P>
+    <H1 modifiers={['my3']}>Blog</H1>
     {data.allMarkdownRemark.edges.map(post => (
       <Div key={post.node.id}>
         <Link to={post.node.frontmatter.path}>

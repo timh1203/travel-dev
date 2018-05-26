@@ -8,7 +8,7 @@ import { Section, Div, Title, H1, H2, P, Object } from '../assets/Matrix'
 
 const Header = () => (
   <Section>
-      <Title>travelDev</Title>
+      <Title modifiers={['decorateTitle']}>travelDev</Title>
       <Object 
         width="560" 
         height="315" 

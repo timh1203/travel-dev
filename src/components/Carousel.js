@@ -4,10 +4,10 @@ import styled from 'styled-components'
 import { Section, Div, H1, A, P, Iframe, Button } from '../assets/Matrix'
 
 const Carousel = ({ data }) => (
-  <Section>
+  <Section modifiers={['backgroundBlue50', 'py3Auto']}>
     <H1>📹 Videos</H1>
     {data.allYoutubeVideo.edges.map(item => (
-      <Div modifiers={['displayFlex', 'justifyAround', 'w75', 'm0Auto']} key={item.node.videoId}>
+      <Div modifiers={['displayFlex', 'justifyAround', 'w75', 'm0Auto', 'carouselPopup']} key={item.node.videoId}>
         <Div modifers={['flex1']}>
           <Iframe src={`http://www.youtube.com/embed/${item.node.videoId}`}
           width="560" height="315" frameBorder="1" allowFullScreen></Iframe>

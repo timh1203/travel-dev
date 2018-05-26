@@ -47,6 +47,9 @@ export const Modifiers = {
   p1: () => `
     padding: 1rem;
   `,
+  py1: () => `
+    padding: 1rem 0;
+  `,
   pb2rem: () => `
     padding-bottom: 2rem;
   `,
@@ -115,11 +118,14 @@ export const Modifiers = {
   colorWhite: () => `
     color: white;
   `,
+  colorBlue: () => `
+    color: #555bfb;
+  `,
   backgroundGray: () => `
     background: #333333;
   `,
-  colorBlue: () => `
-    color: #555bfb;
+  backgroundBlue50: () => `
+    background: rgb(85, 91, 251, 0.2);
   `,
 
   // Font
@@ -141,9 +147,31 @@ export const Modifiers = {
   bold: () => `
     font-weight: bold;
   `,
+  fontRaleway: () => `
+    font-family: 'Raleway';
+  `,
+  fontAbril: () => `
+    font-family: 'Abril Fatface';
+  `,
 
   // Misc
   listStyleNone: () => `
     list-style: none;
+  `,
+  carouselPopup: () => `
+  transition: ease all 1s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+  `,
+  rotateRight: () => `
+  transition: ease all 0.5s;
+  
+  &:hover {
+    transform: rotate(-10deg) scale(1.1);
+    outline: none;
+    border: none;
+  }
   `,
 }

@@ -1,14 +1,27 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { Section, Div, H1, H2, H3, P, A, Img } from '../assets/Matrix'
+import { Section, Div, Span, H1, H2, H3, P, A, Img } from '../assets/Matrix'
 
 const ResourcesPage = () => (
-  <Section modifiers={['w75', 'm0Auto']}>
-    <H1 modifiers={['my3']}>🌐 Resources</H1>
+  <Section id='resources' modifiers={['w75', 'm0Auto']}>
+    <H1 modifiers={['my3']}>Resources</H1>
+    
+    <Div modifiers={['displayFlex', 'justifyAround', 'py1', 'fontLarge', 'fontAbril']}>
+      <Span modifiers={['rotateRight']}><Link to='#travel'>🌎 Travel</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to='#computer'>🖱️ Computer</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to='#phone'>☎️ Phone</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to='#camera'>📷 Camera</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to='#software'>👨‍💻 Software</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to='#web'>🕸️ Web</Link></Span>
+    </Div>
+
     <hr />
-    <Div modifiers={['textLeft', 'my3Auto']}>
-      <H1>✈️ Travel Resources</H1>
+
+    <Div id='travel' modifiers={['textLeft', 'my3Auto']}>
+      <Div modifiers={['displayFlex', 'justifyBetween']}>
+        <H1>✈️ Travel Resources</H1>
+      </Div>
       <H3>These are the services I like to use when I travel.</H3>
 
       <Div modifiers={['displayFlex', 'justifyCenter', 'textCenter']}>
@@ -67,10 +80,12 @@ const ResourcesPage = () => (
       </Div>
     </Div>
 
-    
     <hr />
-    <Div modifiers={['textLeft', 'my3Auto']}>
-      <H1>💻 My Computer Tools</H1>
+    <Div id='computer' modifiers={['textLeft', 'my3Auto']}>
+      <Div modifiers={['displayFlex', 'justifyBetween']}>
+        <H1>💻 My Computer Tools</H1>
+        <Span modifiers={['rotateRight']}><Link to='#resources'>Top☝</Link></Span>
+      </Div>
       <H3>I use these tools daily and always working towards the perfect setup.</H3>
 
       <Div modifiers={['displayFlex', 'justifyCenter', 'textCenter']}>
@@ -153,8 +168,11 @@ const ResourcesPage = () => (
 
     <hr />
 
-    <Div modifiers={['textLeft', 'my3Auto']}>
-      <H1>📲 My Phone Tools</H1>
+    <Div id='phone' modifiers={['textLeft', 'my3Auto']}>
+      <Div modifiers={['displayFlex', 'justifyBetween']}>
+        <H1>📲 My Phone Tools</H1>
+        <Span modifiers={['rotateRight']}><Link to='#resources'>Top☝</Link></Span>
+      </Div>
       <H3> My second lifeline after my laptop.</H3>
 
       <Div modifiers={['displayFlex', 'justifyCenter', 'textCenter']}>
@@ -198,9 +216,14 @@ const ResourcesPage = () => (
         </Div>
       </Div>
     </Div>
+
     <hr />
-    <Div modifiers={['textLeft', 'my3Auto']}>
-      <H1>📹 My Camera Tools</H1>
+
+    <Div id='camera' modifiers={['textLeft', 'my3Auto']}>
+      <Div modifiers={['displayFlex', 'justifyBetween']}>
+        <H1>📹 My Camera Tools</H1>
+        <Span modifiers={['rotateRight']}><Link to='#resources'>Top☝</Link></Span>
+      </Div>
       <H3>My recording process is pretty minimal and I love portability.</H3>
 
       <Div modifiers={['displayFlex', 'justifyCenter', 'textCenter']}>
@@ -257,11 +280,12 @@ const ResourcesPage = () => (
 
     <hr />
 
-    <Div modifiers={['textLeft', 'my3Auto']}>
-      <H1>💿 Software Products & Services</H1>
-      <H3>
-        If you're new to web development, make a new site with Namecheap + Bluehost + Divi Theme.
-      </H3>
+    <Div id='software' modifiers={['textLeft', 'my3Auto']}>
+      <Div modifiers={['displayFlex', 'justifyBetween']}>
+        <H1>💿 Software Products & Services</H1>
+        <Span modifiers={['rotateRight']}><Link to='#resources'>Top☝</Link></Span>
+      </Div>
+      <H3>If you're new to web development, make a new site with Namecheap + Bluehost + Divi Theme.</H3>
 
       <Div modifiers={['displayFlex', 'justifyCenter', 'textCenter']}>
         <Div modifiers={['flex1']}>
@@ -316,8 +340,11 @@ const ResourcesPage = () => (
 
     <hr />
 
-    <Div modifiers={['textLeft', 'my3Auto']}>
-      <H1>📚 Web Development Resources</H1>
+    <Div id='web' modifiers={['textLeft', 'my3Auto']}>
+      <Div modifiers={['displayFlex', 'justifyBetween']}>
+        <H1>📚‘ Web Development Resources</H1>
+        <Span modifiers={['rotateRight']}><Link to='#resources'>Top☝</Link></Span>
+      </Div>
       <H3>I recommend free courses before buying paid courses.</H3>
 
       <Div modifiers={['displayFlex', 'justifyCenter', 'textCenter']}>

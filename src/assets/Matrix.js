@@ -32,17 +32,28 @@ export const Div = styled.div`
 ${applyStyleModifiers(Modifiers)}
 `
 
+export const Span = styled.span`
+${applyStyleModifiers(Modifiers)}
+`
+
 export const Form = styled.form`
 ${applyStyleModifiers(Modifiers)}
 `
 
 export const Title = styled.h1`
-font-family: 'Modak';
 font-family: 'Abril Fatface';
 font-weight: 800;
 font-size: 6rem;
 color: #292929;
 text-shadow: 1px 4px 2px gray;
+transition: ease all 0.5s;
+
+&:hover {
+  color: #555bfb;
+  text-decoration: underline;
+  transform: rotate(-10deg) scale(1.1);
+}
+
 ${applyStyleModifiers(Modifiers)}
 `
 export const H1 = styled.h1`
@@ -84,7 +95,22 @@ ${applyStyleModifiers(Modifiers)}
 
 export const Input = styled.input`
 padding: 0.5%;
-border-radius: 5%;
+transition: ease all 0.2s;
+outline: none;
+border: 2px solid #555bfb;
+
+&:hover {
+  transform: scale(1.02);
+  border: 3px solid #555bfb;
+}
+&:focus {
+  border-radius: 50%;
+  border: 3px solid black;
+  outline: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: black;
+}
 ${applyStyleModifiers(Modifiers)}
 `
 
@@ -101,13 +127,29 @@ ${applyStyleModifiers(Modifiers)}
 `
 
 export const Section = styled.section`
-margin: 4rem 0;
+padding: 1rem 0;
+margin: 2rem 0;
 ${applyStyleModifiers(Modifiers)}
 `
 
 export const Textarea = styled.textarea`
 padding: 0.5%;
-border-radius: 5%;
+transition: ease all 0.2s;
+outline: none;
+border: 2px solid #555bfb;
+
+&:hover {
+  transform: scale(1.02);
+  border: 3px solid #555bfb;
+}
+&:focus {
+  border-radius: 50%;
+  border: 3px solid black;
+  outline: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: black;
+}
 ${applyStyleModifiers(Modifiers)}
 `
 
