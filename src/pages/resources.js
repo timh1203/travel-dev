@@ -342,7 +342,7 @@ const ResourcesPage = () => (
 
     <Div id='web' modifiers={['textLeft', 'my3Auto']}>
       <Div modifiers={['displayFlex', 'justifyBetween']}>
-        <H1>📚‘ Web Development Resources</H1>
+        <H1>📚 Web Development Resources</H1>
         <Span modifiers={['rotateRight']}><Link to='#resources'>Top☝</Link></Span>
       </Div>
       <H3>I recommend free courses before buying paid courses.</H3>

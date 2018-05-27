@@ -40,7 +40,7 @@ export const Modifiers = {
     flex: 1;
   `,
   flexTriple: () => `
-    flex: 1 1 100%;
+    flex: 1 1 25%;
   `,
 
   // Box Model
@@ -130,7 +130,7 @@ export const Modifiers = {
 
   // Font
   fontSmall: () => `
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   `,
   fontLarge: () => `
     font-size: 1.2rem;

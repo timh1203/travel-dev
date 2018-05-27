@@ -17,14 +17,68 @@ const FormWrap = () => (
   <Form id='contact-form' method='POST'>
     <Ul modifiers={['listStyleNone']}>
       <Li><Input modifiers={['displayNone']} type='hidden' name='From' value='traveldev.net' /></Li>
-      <Li><Input modifiers={['w25']} type='text' name='First Name' placeholder='First Name' required /></Li>
-      <Li><Input modifiers={['w25']}type='text' name='Last Name' placeholder='Last Name' required /></Li>
-      <Li><Input modifiers={['w25']}type='email' name='Email' placeholder='Email' required /></Li>
-      <Li><Textarea modifiers={['w25']}id='text' name='Body' placeholder='Message' required /></Li>
+      <Li><InputResponse type='text' name='First Name' placeholder='First Name' required /></Li>
+      <Li><InputResponse type='text' name='Last Name' placeholder='Last Name' required /></Li>
+      <Li><InputResponse type='email' name='Email' placeholder='Email' required /></Li>
+      <Li><TextareaResponse id='text' name='Body' placeholder='Message' required /></Li>
       <Li><Button id='send' type='submit' value='Send'>Send</Button></Li>
       <Li><Input modifiers={['visibilityHidden']} type='text' name='_gotcha' /></Li>
     </Ul>
   </Form>
 )
+
+const InputResponse = styled.input`
+  padding: 0.5%;
+  transition: ease all 0.2s;
+  outline: none;
+  border: 1px solid #555bfb;
+
+  &:hover {
+    transform: scale(1.02);
+    border: 3px solid #555bfb;
+  }
+  &:focus {
+    border-radius: 50%;
+    border: 3px solid #555bfb;
+    outline: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: black;
+  }
+
+  @media only screen and (min-width: 374px) {
+    width: 75%;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 50%;
+  }
+`
+
+const TextareaResponse = styled.textarea`
+  padding: 0.5%;
+  transition: ease all 0.2s;
+  outline: none;
+  border: 1px solid #555bfb;
+
+  &:hover {
+    transform: scale(1.02);
+    border: 3px solid #555bfb;
+  }
+  &:focus {
+    border-radius: 50%;
+    border: 3px solid #555bfb;
+    outline: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: black;
+  }
+
+  @media only screen and (min-width: 374px) {
+    width: 75%;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 50%;
+  }
+`
 
 export default Contact

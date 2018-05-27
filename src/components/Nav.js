@@ -6,14 +6,30 @@ import { Div, Img } from '../assets/Matrix'
 
 const Nav = () => (
   <Div>
-    <Div modifiers={['displayFlex', 'justifyAround', 'itemsCenter', 'fontLarger']}>
+    <Img src={logo} />
+    <DivResponse>
       <Link to="/">🏠 Home</Link>
       <Link to="/about/">👤 About</Link>
-      <Img src={logo} />
       <Link to="/blog">📘 Blog</Link>
       <Link to="/resources">🌐 Resources</Link>
-    </Div>
+    </DivResponse>
   </Div>
 )
+
+const DivResponse = styled.div`
+  display: flex;
+  font-size: 1.2rem;
+
+  @media only screen and (min-width: 374px) {
+    flex-direction: column;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+`
 
 export default Nav

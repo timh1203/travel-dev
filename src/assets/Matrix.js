@@ -97,7 +97,8 @@ export const Input = styled.input`
 padding: 0.5%;
 transition: ease all 0.2s;
 outline: none;
-border: 2px solid #555bfb;
+border: 1px solid #555bfb;
+width: 25%;
 
 &:hover {
   transform: scale(1.02);
@@ -105,7 +106,29 @@ border: 2px solid #555bfb;
 }
 &:focus {
   border-radius: 50%;
-  border: 3px solid black;
+  border: 3px solid #555bfb;
+  outline: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: black;
+}
+${applyStyleModifiers(Modifiers)}
+`
+
+export const Textarea = styled.textarea`
+padding: 0.5%;
+transition: ease all 0.2s;
+outline: none;
+border: 1px solid #555bfb;
+width: 25%;
+
+&:hover {
+  transform: scale(1.02);
+  border: 3px solid #555bfb;
+}
+&:focus {
+  border-radius: 50%;
+  border: 3px solid #555bfb;
   outline: none;
   padding: 0.8rem;
   text-align: center;
@@ -129,27 +152,6 @@ ${applyStyleModifiers(Modifiers)}
 export const Section = styled.section`
 padding: 1rem 0;
 margin: 2rem 0;
-${applyStyleModifiers(Modifiers)}
-`
-
-export const Textarea = styled.textarea`
-padding: 0.5%;
-transition: ease all 0.2s;
-outline: none;
-border: 2px solid #555bfb;
-
-&:hover {
-  transform: scale(1.02);
-  border: 3px solid #555bfb;
-}
-&:focus {
-  border-radius: 50%;
-  border: 3px solid black;
-  outline: none;
-  padding: 0.8rem;
-  text-align: center;
-  color: black;
-}
 ${applyStyleModifiers(Modifiers)}
 `
 
