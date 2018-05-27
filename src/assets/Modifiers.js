@@ -95,6 +95,9 @@ export const Modifiers = {
   w75: () => `
     width: 75%;
   `,
+  w90: () => `
+    width: 90%;
+  `,
   w100: () => `
     width: 100%;
   `,
@@ -146,6 +149,9 @@ export const Modifiers = {
   `,
   bold: () => `
     font-weight: bold;
+  `,
+  italic: () => `
+    font-style: italic;
   `,
   fontRaleway: () => `
     font-family: 'Raleway';
