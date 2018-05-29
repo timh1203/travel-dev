@@ -4,17 +4,17 @@ import styled from 'styled-components'
 import { Section, Div, H1, A, P, Button } from '../assets/Matrix'
 
 const Carousel = ({ data }) => (
-  <Section modifiers={['backgroundBlue50', 'py3Auto']}>
+  <Section modifiers={['bBlue20', 'py3Auto']}>
     <H1>📹 Videos</H1>
     {data.allYoutubeVideo.edges.map(item => (
       <DivResponse1 key={item.node.videoId}>
-        <Div modifiers={['flex1']}>
+        <Div modifiers={['f1']}>
           <IframeResponse src={`http://www.youtube.com/embed/${item.node.videoId}`}
           frameBorder="1" allowFullScreen></IframeResponse>
         </Div>
         <DivResponse2>
           <A href={`https://www.youtube.com/watch?v=${item.node.videoId}&showinfo=0`} target='_blank'>
-            ♦️ <P modifiers={['bold', 'underline']}> {item.node.title}</P>
+            ♦️ <P modifiers={['b', 'u']}> {item.node.title}</P>
           </A>
           <P>{item.node.description.substr(0, 300) + '...'}</P>
         </DivResponse2>

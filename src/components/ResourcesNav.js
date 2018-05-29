@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Section, Div, Span, H1} from '../assets/Matrix'
 
 const ResourcesNav = () => (
-  <Section id='resources' modifiers={['w100', 'm0Auto']}>
+  <Section id='resources' modifiers={['w100', 'm0A']}>
     <DivResponsive>
       <Span modifiers={['rotateRight']}><Link to='#travel'>🌎 Travel</Link></Span>
       <Span modifiers={['rotateRight']}><Link to='#computer'>🖱️ Computer</Link></Span>

@@ -16,7 +16,7 @@ const Header = () => (
 
 const About = () => (
   <DivResponse2>
-    <H1 modifiers={['colorWhite']}>About</H1>
+    <H1 modifiers={['cWhite']}>About</H1>
     <P>My personal website to share my journey in travel and web development. I love meeting new people, learning about tech advances of the future, and sharing outdoor adventures.</P>
     <Link to="/about"><Button>Read More</Button></Link>
   </DivResponse2>
@@ -24,7 +24,7 @@ const About = () => (
 
 const Nav = () => (
   <DivResponse2>
-    <H1 modifiers={['colorWhite']}>Navigation</H1>
+    <H1 modifiers={['cWhite']}>Navigation</H1>
     <Link to="/">🏠 Home</Link>
     <Link to="/about">👤 About</Link>
     <Link to="/blog">📘 Blog</Link>
@@ -34,7 +34,7 @@ const Nav = () => (
 
 const Social = () => (
   <DivResponse2>
-    <H1 modifiers={['colorWhite']}>Social</H1>
+    <H1 modifiers={['cWhite']}>Social</H1>
     <Div>
       <A_iconlink href='https://twitter.com/travelDev' target="_blank">
         <Twitter />

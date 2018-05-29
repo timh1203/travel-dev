@@ -1,45 +1,45 @@
 export const Modifiers = {
   // Display
-  displayFlex: () => `
+  dFlex: () => `
     display: flex;
   `,
-  displayInline: () => `
+  dInline: () => `
     display: inline;
   `,
-  displayBlock: () => `
+  dBlock: () => `
     display: block;
   `,
-  displayNone: () => `
+  dNone: () => `
     display: none;
   `,
-  visibilityHidden: () =>  `
+  vHidden: () =>  `
     visibility:hidden;
   `,
-  flexColumn: () => `
+  fColumn: () => `
     flex-direction: column;
   `,
-  flexWrap: () => `
+  fWrap: () => `
     flex-wrap: wrap;
   `,
-  justifyCenter: () => `
+  fjcCenter: () => `
     justify-content: center;
   `,
-  justifyBetween: () => `
+  fjcBetween: () => `
     justify-content: space-between;
   `,
-  justifyAround: () => `
+  fjcAround: () => `
     justify-content: space-around;
   `,
-  alignCenter: () => `
+  facCenter: () => `
     align-content: center;
   `,
-  itemsCenter: () => `
+  faiCenter: () => `
     align-items: center;
   `,
-  flex1: () => `
+  f1: () => `
     flex: 1;
   `,
-  flexTriple: () => `
+  f25: () => `
     flex: 1 1 25%;
   `,
 
@@ -50,16 +50,13 @@ export const Modifiers = {
   py1: () => `
     padding: 1rem 0;
   `,
-  pb2rem: () => `
-    padding-bottom: 2rem;
-  `,
-  my3Auto: () => `
+  my3A: () => `
     margin: 3rem auto;
   `,
   my6: () => `
     margin: 6rem 0;
   `,
-  mt2rem: () => `
+  mt2R: () => `
     margin-top: 2rem;
   `,
   frame: () => `
@@ -69,20 +66,14 @@ export const Modifiers = {
   `,
   
   // Alignment
-  textCenter: () => `
+  tCenter: () => `
     text-align: center;
   `,
-  textLeft: () => `
+  tLeft: () => `
     text-align: left;
   `,
-  m0Auto: () => `
+  m0A: () => `
     margin: 0 auto;
-  `,
-  textMiddle: () => `
-    vertical-align: middle;
-  `,
-  textTop: () => `
-    vertical-align: top;
   `,
   
   // Length
@@ -118,50 +109,47 @@ export const Modifiers = {
   `,
 
   // Color
-  colorWhite: () => `
+  cWhite: () => `
     color: white;
   `,
-  colorBlue: () => `
+  cBlue: () => `
     color: #555bfb;
   `,
-  backgroundGray: () => `
-    background: #333333;
-  `,
-  backgroundBlue50: () => `
+  bBlue20: () => `
     background: rgb(85, 91, 251, 0.2);
   `,
 
   // Font
-  fontSmall: () => `
-    font-size: 0.8rem;
-  `,
-  fontLarge: () => `
-    font-size: 1.2rem;
-  `,
-  fontLarger: () => `
-    font-size: 1.5rem;
-  `,
-  fontLargest: () => `
-    font-size: 1.8rem;
-  `,
-  underline: () => `
-    text-decoration: underline;
-  `,
-  bold: () => `
-    font-weight: bold;
-  `,
-  italic: () => `
-    font-style: italic;
-  `,
-  fontRaleway: () => `
+  fRaleway: () => `
     font-family: 'Raleway';
   `,
-  fontAbril: () => `
+  fAbril: () => `
     font-family: 'Abril Fatface';
+  `,
+  fSmall: () => `
+    font-size: 0.8rem;
+  `,
+  fLarge: () => `
+    font-size: 1.2rem;
+  `,
+  fLarger: () => `
+    font-size: 1.5rem;
+  `,
+  fLargest: () => `
+    font-size: 1.8rem;
+  `,
+  ul: () => `
+    text-decoration: underline;
+  `,
+  b: () => `
+    font-weight: bold;
+  `,
+  i: () => `
+    font-style: italic;
   `,
 
   // Misc
-  listStyleNone: () => `
+  lsNone: () => `
     list-style: none;
   `,
   carouselPopup: () => `

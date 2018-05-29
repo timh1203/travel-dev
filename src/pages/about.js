@@ -7,7 +7,7 @@ const AboutPage = () => (
   <Section>
     <H1 modifiers={['my3']}>About</H1>
     <Img modifiers={['w75', 'frame']}src={'https://i.imgur.com/NtmLXEU.jpg'} alt='Profile Picture' />
-    <P modifiers={['fontLarge', 'w75', 'm0Auto']}>
+    <P modifiers={['fLarge', 'w75', 'm0A']}>
       I stepped away from a full-time job in the medical industry on October 28th, 2016. I left the corporate world behind and dedicated myself to redesigning my lifestyle so I can have more freedom in life. Although I have tried different ventures initially, I found that I love web development, which also allows for greater mobility and sustainability for a location-independent lifestyle. This is my journey in progress towards creating a life rich in experiences. I hope my experiences will inspire you to experience life intensely and seeking all the beauty encompassing our beautiful sphere.
     <br />
     <br />

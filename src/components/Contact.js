@@ -15,14 +15,14 @@ const Contact = () => (
 
 const FormWrap = () => (
   <Form id='contact-form' method='POST'>
-    <Ul modifiers={['listStyleNone']}>
-      <Li><Input modifiers={['displayNone']} type='hidden' name='From' value='traveldev.net' /></Li>
+    <Ul modifiers={['lsNone']}>
+      <Li><Input modifiers={['dNone']} type='hidden' name='From' value='traveldev.net' /></Li>
       <Li><InputResponse type='text' name='First Name' placeholder='First Name' required /></Li>
       <Li><InputResponse type='text' name='Last Name' placeholder='Last Name' required /></Li>
       <Li><InputResponse type='email' name='Email' placeholder='Email' required /></Li>
       <Li><TextareaResponse id='text' name='Body' placeholder='Message' required /></Li>
       <Li><Button id='send' type='submit' value='Send'>Send</Button></Li>
-      <Li><Input modifiers={['visibilityHidden']} type='text' name='_gotcha' /></Li>
+      <Li><Input modifiers={['vHidden']} type='text' name='_gotcha' /></Li>
     </Ul>
   </Form>
 )

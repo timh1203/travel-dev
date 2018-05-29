@@ -4,21 +4,21 @@ import styled from 'styled-components'
 import { Section, Div, DivFeatured, H1, H3, Span, P, A, Img } from '../assets/Matrix'
  
 const ResourcesComputer = () => (
-  <Div id='computer' modifiers={['textLeft', 'my3Auto']}>
-    <Div modifiers={['displayFlex', 'justifyBetween']}>
+  <Div id='computer' modifiers={['tLeft', 'my3A']}>
+    <Div modifiers={['dFlex', 'fjcBetween']}>
       <H1>💻 Computer Tools</H1>
       <Span modifiers={['rotateRight']}><Link to='#resources'>Top☝</Link></Span>
     </Div>
     <H3>I use these tools daily and always working towards the perfect setup.</H3>
 
     <DivFeatured>
-      <Div modifiers={['flex1']}>
-        <Div modifiers={['w100', 'margin0Auto', 'justifyCenter']}>
+      <Div modifiers={['f1']}>
+        <Div modifiers={['fjcCenter']}>
           <A href='https://www.amazon.com/gp/product/B00XZGUL8W/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1' target='_blank'>
             <Img modifiers={['mh300px']} src='https://i.imgur.com/aWsiTyf.png' alt='Macbook Pro 15-inch 2015'/>
           </A>
         </Div>
-        <Div modifiers={['w75', 'm0Auto']}>
+        <Div modifiers={['w75', 'm0A']}>
           <P>
             ♦️ The <A href="https://www.amazon.com/gp/product/B00XZGUL8W/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1" target='_blank'>Macbook Pro 2015 (15-inch 2.5Ghz Retina Display)</A> is meant for you if you're a developer/designer, there's no better laptop! Why the 2015? It's the best generation with usb-ports, aheadphone jack, magsafe, and retina display. None of that gimmicky touchbar deal. Want to see my technical specs?
             <br />
@@ -27,26 +27,26 @@ const ResourcesComputer = () => (
         </Div>
       </Div>
 
-      <Div modifiers={['flex1']}>
+      <Div modifiers={['f1']}>
         <Div>
           <A href='https://www.amazon.com/Roost-Laptop-Stand-Adjustable-Portable/dp/B01C9KG8IG/ref=sr_1_4?ie=UTF8&qid=1527001259&sr=8-4&keywords=roost+stand' target='_blank'>
             <Img modifiers={['mh300px']} src='https://i.imgur.com/LN7qZbz.png' alt='Roost Laptop Stand'/>
           </A>
         </Div>
-        <Div modifiers={['w75', 'm0Auto']}>
+        <Div modifiers={['w75', 'm0A']}>
           <P>
             ♦️ The <A href="https://www.amazon.com/Roost-Laptop-Stand-Adjustable-Portable/dp/B01C9KG8IG/ref=sr_1_4?ie=UTF8&qid=1527001259&sr=8-4&keywords=roost+stand" target='_blank'>Roost Laptop Stand</A> is an ergonomic solution which has dramatically help my long sessions of coding and watching video tutorials. There are going to be a couple imitations out there for cheap but I wanted a quality product that doesn't fail on me while on the road. Very durable construction compared to others as I've read. Shell up the money and buy it once.
           </P>
         </Div>
       </Div>
 
-      <Div modifiers={['flex1']}>
+      <Div modifiers={['f1']}>
         <Div>
           <A href='https://www.amazon.com/gp/product/B01LQQH86A/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1' target='_blank'>
             <Img modifiers={['mh300px']} src='https://i.imgur.com/Rhmtyup.jpg' alt='WD 4TB External Hard Drive'/>
           </A>
         </Div>
-        <Div modifiers={['w75', 'm0Auto']}>
+        <Div modifiers={['w75', 'm0A']}>
           <P>
             ♦️ The <A href="https://www.amazon.com/gp/product/B01LQQH86A/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1" target='_blank'>Western Digital 4TB Black My Passport  Portable External Hard Drive - USB 3.0</A> is a beast for the price! I'm using them to back up all my essentials like code, songs, movies, courses, etc. It also has some great software that comes along with it too. I use this drive for file backup and another drive for Apple's Time Machine.
           </P>
@@ -54,7 +54,7 @@ const ResourcesComputer = () => (
       </Div>
     </DivFeatured>
 
-    <Div modifiers={['w75', 'm0Auto']}>
+    <Div modifiers={['w75', 'm0A']}>
       <P>
         ♦️ <A href="https://www.amazon.com/gp/product/B077GPYD96/ref=oh_aui_detailpage_o03_s01?ie=UTF8&psc=1" target='_blank'>iLeadon Macbook Pro 15 Inch Case, Nebula Map</A> gives a really nice rubbery grip with a world map silhouette, what's not to love? Oh, it helps hide that Macbook glowing apple logo which might garner the attention of thieves. 😉
       </P>

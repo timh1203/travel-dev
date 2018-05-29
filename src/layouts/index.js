@@ -14,7 +14,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'travel, development' },
       ]}
     />
-    <Div modifiers={['mt2rem', 'textCenter']}>
+    <Div modifiers={['mt2R', 'tCenter']}>
       <Nav />
       {children()}
       <Footer />
