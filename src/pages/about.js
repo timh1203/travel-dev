@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { Section, H1, Img, P } from '../assets/Matrix'
+import { Wrapper, H1, Img, P } from '../assets/Matrix'
 
 const AboutPage = () => (
-  <Section>
+  <Wrapper>
     <H1 modifiers={['my3']}>About</H1>
     <Img modifiers={['w75', 'frame']}src={'https://i.imgur.com/NtmLXEU.jpg'} alt='Profile Picture' />
     <P modifiers={['fLarge', 'w75', 'm0A']}>
@@ -19,7 +19,7 @@ const AboutPage = () => (
     <br /> 
       🌎Aho mitakuye oyasin💚
     </P>
-  </Section>
+  </Wrapper>
 )
 
 export default AboutPage

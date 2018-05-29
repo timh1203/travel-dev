@@ -2,10 +2,10 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import logo from '../assets/logo.png'
-import { Div, Img } from '../assets/Matrix'
+import { Section, Img } from '../assets/Matrix'
 
 const Nav = () => (
-  <Div>
+  <Section>
     <Img src={logo} />
     <DivResponse>
       <Link to="/">🏠 Home</Link>
@@ -13,7 +13,7 @@ const Nav = () => (
       <Link to="/blog">📘 Blog</Link>
       <Link to="/resources">🌐 Resources</Link>
     </DivResponse>
-  </Div>
+  </Section>
 )
 
 const DivResponse = styled.div`

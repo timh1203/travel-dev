@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Section, Div, DivFeatured, H1, H3, Span, P, A, Img } from '../assets/Matrix'
  
 const ResourcesComputer = () => (
-  <Div id='computer' modifiers={['tLeft', 'my3A']}>
+  <Section id='computer' modifiers={['tLeft', 'my3A']}>
     <Div modifiers={['dFlex', 'fjcBetween']}>
       <H1>💻 Computer Tools</H1>
       <Span modifiers={['rotateRight']}><Link to='#resources'>Top☝</Link></Span>
@@ -88,7 +88,7 @@ const ResourcesComputer = () => (
       </P>
     </Div>
     <hr />
-  </Div>
+  </Section>
 )
 
 export default ResourcesComputer

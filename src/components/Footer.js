@@ -7,33 +7,33 @@ import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
 import { Div, H1, P, Button } from '../assets/Matrix'
 
 const Header = () => (
-  <DivResponse1>
+  <SectionResponse>
     <About />
     <Nav /> 
     <Social />
-  </DivResponse1>
+  </SectionResponse>
 )
 
 const About = () => (
-  <DivResponse2>
+  <DivResponse>
     <H1 modifiers={['cWhite']}>About</H1>
     <P>My personal website to share my journey in travel and web development. I love meeting new people, learning about tech advances of the future, and sharing outdoor adventures.</P>
     <Link to="/about"><Button>Read More</Button></Link>
-  </DivResponse2>
+  </DivResponse>
 )
 
 const Nav = () => (
-  <DivResponse2>
+  <DivResponse>
     <H1 modifiers={['cWhite']}>Navigation</H1>
     <Link to="/">🏠 Home</Link>
     <Link to="/about">👤 About</Link>
     <Link to="/blog">📘 Blog</Link>
     <Link to="/resources">🌐 Resources</Link>
-  </DivResponse2>
+  </DivResponse>
 )
 
 const Social = () => (
-  <DivResponse2>
+  <DivResponse>
     <H1 modifiers={['cWhite']}>Social</H1>
     <Div>
       <A_iconlink href='https://twitter.com/travelDev' target="_blank">
@@ -53,10 +53,10 @@ const Social = () => (
         <PResponse>Instagram</PResponse>
       </A_iconlink>
     </Div>
-  </DivResponse2>
+  </DivResponse>
 )
 
-const DivResponse1 = styled.div`
+const SectionResponse = styled.div`
   display: flex;
   color: white;
   background: #333333;
@@ -72,7 +72,7 @@ const DivResponse1 = styled.div`
   }
 `
 
-const DivResponse2 = styled.div`
+const DivResponse = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;

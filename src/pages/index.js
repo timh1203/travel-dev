@@ -5,14 +5,14 @@ import typography from '../utils/typography'
 import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 import Contact from '../components/Contact'
-import { Div } from '../assets/Matrix'
+import { Wrapper } from '../assets/Matrix'
 
 const MainPage = ({ data }) => (
-  <Div>
+  <Wrapper>
     <Header />
     <Carousel data={data} />
     <Contact />
-  </Div>
+  </Wrapper>
 )
 
 export const query = graphql`

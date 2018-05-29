@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Section, Div, H1, A, P, Button } from '../assets/Matrix'
 
 const Carousel = ({ data }) => (
-  <Section modifiers={['bBlue20', 'py3Auto']}>
+  <Section modifiers={['bBlue20', 'py1']}>
     <H1>📹 Videos</H1>
     {data.allYoutubeVideo.edges.map(item => (
       <DivResponse1 key={item.node.videoId}>

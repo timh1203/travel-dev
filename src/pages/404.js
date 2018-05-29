@@ -1,11 +1,11 @@
 import React from 'react'
-import { Section, H1, P } from '../assets/Matrix'
+import { Wrapper, H1, P } from '../assets/Matrix'
 
 const NotFoundPage = () => (
-  <Section>
+  <Wrapper>
     <H1>NOT FOUND</H1>
     <P>You just hit a route that doesn&#39;t exist... the sadness.</P>
-  </Section>
+  </Wrapper>
 )
 
 export default NotFoundPage

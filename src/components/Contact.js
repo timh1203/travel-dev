@@ -4,10 +4,10 @@ import styled from 'styled-components'
 import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
-import { Section, H1, Form, Ul, Li, Button, Input, Textarea } from '../assets/Matrix'
+import { Section, H1, Form, Ul, Li, Button, Input } from '../assets/Matrix'
 
 const Contact = () => (
-  <Section>
+  <Section modifiers={['py1']}>
     <H1>✉️ Contact</H1>
     <FormWrap />
   </Section>

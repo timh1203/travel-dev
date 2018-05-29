@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { Section, Div, Span, H1} from '../assets/Matrix'
+import { Section, Span } from '../assets/Matrix'
 
 const ResourcesNav = () => (
   <Section id='resources' modifiers={['w100', 'm0A']}>

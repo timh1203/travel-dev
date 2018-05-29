@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
-import { Section, Div, Title, H1, H2, P } from '../assets/Matrix'
+import { Section, Div } from '../assets/Matrix'
 
 const Header = () => (
   <Section>

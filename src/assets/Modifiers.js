@@ -15,6 +15,8 @@ export const Modifiers = {
   vHidden: () =>  `
     visibility:hidden;
   `,
+
+  // Flexbox
   fColumn: () => `
     flex-direction: column;
   `,
@@ -50,6 +52,12 @@ export const Modifiers = {
   py1: () => `
     padding: 1rem 0;
   `,
+  py3: () => `
+    padding: 3rem 0;
+  `,
+  m0A: () => `
+    margin: 0 auto;
+  `,
   my3A: () => `
     margin: 3rem auto;
   `,
@@ -59,24 +67,8 @@ export const Modifiers = {
   mt2R: () => `
     margin-top: 2rem;
   `,
-  frame: () => `
-    border: 1px solid black;
-    box-shadow: 1px 3px 3px gray;
-    border-radius: 10px;
-  `,
   
-  // Alignment
-  tCenter: () => `
-    text-align: center;
-  `,
-  tLeft: () => `
-    text-align: left;
-  `,
-  m0A: () => `
-    margin: 0 auto;
-  `,
-  
-  // Length
+  // Window
   w25: () => `
     width: 25%;
   `,
@@ -126,6 +118,12 @@ export const Modifiers = {
   fAbril: () => `
     font-family: 'Abril Fatface';
   `,
+  tCenter: () => `
+    text-align: center;
+  `,
+  tLeft: () => `
+    text-align: left;
+  `,
   fSmall: () => `
     font-size: 0.8rem;
   `,
@@ -152,20 +150,25 @@ export const Modifiers = {
   lsNone: () => `
     list-style: none;
   `,
+  frame: () => `
+    border: 1px solid black;
+    box-shadow: 1px 3px 3px gray;
+    border-radius: 10px;
+  `,
   carouselPopup: () => `
-  transition: ease all 1s;
+    transition: ease all 1s;
 
-  &:hover {
-    transform: scale(1.05);
-  }
+    &:hover {
+      transform: scale(1.05);
+    }
   `,
   rotateRight: () => `
-  transition: ease all 0.5s;
-  
-  &:hover {
-    transform: rotate(-10deg) scale(1.1);
-    outline: none;
-    border: none;
-  }
+    transition: ease all 0.5s;
+    
+    &:hover {
+      transform: rotate(-10deg) scale(1.1);
+      outline: none;
+      border: none;
+    }
   `,
 }

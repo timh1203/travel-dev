@@ -3,33 +3,23 @@ import { applyStyleModifiers } from 'styled-components-modifiers'
 import { Modifiers } from './Modifiers'
 
 export const Container = styled.div`
-font-family: 'Raleway';
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
+  font-family: 'Raleway';
 `
 
-export const A = styled.a`
-${applyStyleModifiers(Modifiers)}
+export const Wrapper = styled.div`
+  padding: 1rem 0;
+  ${applyStyleModifiers(Modifiers)}
 `
 
-export const Button = styled.button`
-border: 2px solid black;
-border-radius: 5%;
-color: white;
-background: #555bfb;
-transition: ease all 0.5s;
-
-&:hover {
-  background: white;
-  color: #555bfb;
-  border: 2px solid black;
-  transform: scale(1.2);
-}
-
-${applyStyleModifiers(Modifiers)}
+export const Section = styled.section`
+  ${applyStyleModifiers(Modifiers)}
+  /* padding: 1rem 0;
+  margin: 2rem 0; */
 `
 
 export const Div = styled.div`
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const DivFeatured = styled.div`
@@ -46,129 +36,138 @@ export const DivFeatured = styled.div`
   } 
 `
 
+export const A = styled.a`
+  ${applyStyleModifiers(Modifiers)}
+`
+
+export const Button = styled.button`
+  ${applyStyleModifiers(Modifiers)}
+  border: 2px solid black;
+  border-radius: 5%;
+  color: white;
+  background: #555bfb;
+  transition: ease all 0.5s;
+
+  &:hover {
+    background: white;
+    color: #555bfb;
+    border: 2px solid black;
+    transform: scale(1.2);
+  }
+`
+
 export const Span = styled.span`
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const Form = styled.form`
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const Title = styled.h1`
-font-family: 'Abril Fatface';
-font-weight: 800;
-font-size: 6rem;
-color: #292929;
-text-shadow: 1px 4px 2px gray;
-transition: ease all 0.5s;
+  ${applyStyleModifiers(Modifiers)}
+  font-family: 'Abril Fatface';
+  font-weight: 800;
+  font-size: 6rem;
+  color: #292929;
+  text-shadow: 1px 4px 2px gray;
+  transition: ease all 0.5s;
 
-&:hover {
-  color: #555bfb;
-  text-decoration: underline;
-  transform: rotate(-10deg) scale(1.1);
-}
-
-${applyStyleModifiers(Modifiers)}
+  &:hover {
+    color: #555bfb;
+    text-decoration: underline;
+    transform: rotate(-10deg) scale(1.1);
+  }
 `
 export const H1 = styled.h1`
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const H2 = styled.h2`
-color: gray;
-font-family: 'Raleway';
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
+  color: gray;
+  font-family: 'Raleway';
 `
 
 export const H3 = styled.h3`
-font-family: 'Cabin';
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const H4 = styled.h4`
-font-family: 'Cabin';
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const H5 = styled.h5`
-font-family: 'Cabin';
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 export const H6 = styled.h6`
-font-family: 'Cabin';
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const Iframe = styled.iframe`
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const Img = styled.img`
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const Input = styled.input`
-padding: 0.5%;
-transition: ease all 0.2s;
-outline: none;
-border: 1px solid #555bfb;
-width: 25%;
-
-&:hover {
-  transform: scale(1.02);
-  border: 3px solid #555bfb;
-}
-&:focus {
-  border-radius: 50%;
-  border: 3px solid #555bfb;
+  ${applyStyleModifiers(Modifiers)}
+  padding: 0.5%;
+  transition: ease all 0.2s;
   outline: none;
-  padding: 0.8rem;
-  text-align: center;
-  color: black;
-}
-${applyStyleModifiers(Modifiers)}
+  border: 1px solid #555bfb;
+  width: 25%;
+
+  &:hover {
+    transform: scale(1.02);
+    border: 3px solid #555bfb;
+  }
+  &:focus {
+    border-radius: 50%;
+    border: 3px solid #555bfb;
+    outline: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: black;
+  }
 `
 
 export const Textarea = styled.textarea`
-padding: 0.5%;
-transition: ease all 0.2s;
-outline: none;
-border: 1px solid #555bfb;
-width: 25%;
-
-&:hover {
-  transform: scale(1.02);
-  border: 3px solid #555bfb;
-}
-&:focus {
-  border-radius: 50%;
-  border: 3px solid #555bfb;
+  ${applyStyleModifiers(Modifiers)}
+  padding: 0.5%;
+  transition: ease all 0.2s;
   outline: none;
-  padding: 0.8rem;
-  text-align: center;
-  color: black;
-}
-${applyStyleModifiers(Modifiers)}
+  border: 1px solid #555bfb;
+  width: 25%;
+
+  &:hover {
+    transform: scale(1.02);
+    border: 3px solid #555bfb;
+  }
+  &:focus {
+    border-radius: 50%;
+    border: 3px solid #555bfb;
+    outline: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: black;
+  }
 `
 
 export const Li = styled.li`
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const Object = styled.object`
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const P = styled.p`
-${applyStyleModifiers(Modifiers)}
-`
-
-export const Section = styled.section`
-padding: 1rem 0;
-margin: 2rem 0;
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const Ul = styled.ul`
-${applyStyleModifiers(Modifiers)}
+  ${applyStyleModifiers(Modifiers)}
 `

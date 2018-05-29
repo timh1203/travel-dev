@@ -5,7 +5,7 @@ import { Div, H1, H2, H3, Img, A, P } from '../assets/Matrix'
 export default function Template({data}) {
   const post = data.markdownRemark
 
-  return(
+  return (
     <Div modifiers={['tLeft']}>
       <Div modifiers={['tCenter']}>
         <H1>{post.frontmatter.title}</H1>
