@@ -14,8 +14,7 @@ export const Wrapper = styled.div`
 
 export const Section = styled.section`
   ${applyStyleModifiers(Modifiers)}
-  /* padding: 1rem 0;
-  margin: 2rem 0; */
+  padding: 1rem 0;
 `
 
 export const Div = styled.div`

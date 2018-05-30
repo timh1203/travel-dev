@@ -15,7 +15,7 @@ const Header = () => (
       allow="autoplay; encrypted-media" 
       allowFullScreen 
     /> 
-    <H2Response modifiers={['ul']}>I like to travel, code, and make videos. 💚✈️💻</H2Response>
+    <H2Response modifiers={['ul']}>I love to travel, code, and make videos. 💚✈️💻</H2Response>
     <Div>
       <A_iconlink href='https://twitter.com/travelDev' target="_blank">
         <Twitter />

@@ -21,8 +21,8 @@ const FormWrap = () => (
       <Li><InputResponse type='text' name='Last Name' placeholder='Last Name' required /></Li>
       <Li><InputResponse type='email' name='Email' placeholder='Email' required /></Li>
       <Li><TextareaResponse id='text' name='Body' placeholder='Message' required /></Li>
+      <Li modifiers={['p0', 'm0','h0']}><Input modifiers={['vHidden']} type='text' name='_gotcha' /></Li>
       <Li><Button id='send' type='submit' value='Send'>Send</Button></Li>
-      <Li><Input modifiers={['vHidden']} type='text' name='_gotcha' /></Li>
     </Ul>
   </Form>
 )
