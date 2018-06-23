@@ -7,6 +7,7 @@ import { Section, Div, Img } from '../assets/Matrix'
 const Nav = () => (
   <Section1>
     <Link1 to="/"><Img1 src={logo} /></Link1>
+
     <Div1>
       <Link1 to="/">🏠 Home</Link1>
       <Link1 to="/about/">👤 About</Link1>

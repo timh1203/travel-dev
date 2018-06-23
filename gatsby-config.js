@@ -12,6 +12,7 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'react-icons-kit',
     'gatsby-link',
+    'gatsby-plugin-eslint',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
