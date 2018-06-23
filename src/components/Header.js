@@ -1,7 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
 import { Section, Div } from '../assets/Matrix'
@@ -9,23 +7,23 @@ import { Section, Div } from '../assets/Matrix'
 const Header = () => (
   <Section>
     <TitleResponse>travelDev</TitleResponse>
-    <ObjectResponse 
-      data="https://www.youtube.com/embed/d1fnzB8M3UM?rel=0&amp;controls=0&amp;showinfo=0" 
-      frameBorder="0" 
-      allow="autoplay; encrypted-media" 
-      allowFullScreen 
-    /> 
+    <ObjectResponse
+      data="https://www.youtube.com/embed/d1fnzB8M3UM?rel=0&amp;controls=0&amp;showinfo=0"
+      frameBorder="0"
+      allow="autoplay; encrypted-media"
+      allowFullScreen
+    />
     <H2Response modifiers={['ul']}>I love to travel, code, and make videos. 💚✈️💻</H2Response>
     <Div>
-      <A_iconlink href='https://twitter.com/travelDev' target="_blank">
+      <A1 href="https://twitter.com/travelDev" target="_blank">
         <Twitter />
-      </A_iconlink>
-      <A_iconlink href='https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw' target="_blank">
+      </A1>
+      <A1 href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
         <Youtube />
-      </A_iconlink>
-      <A_iconlink href='https://www.instagram.com/travel_dev' target="_blank">
+      </A1>
+      <A1 href="https://www.instagram.com/travel_dev" target="_blank">
         <Instagram />
-      </A_iconlink>
+      </A1>
     </Div>
   </Section>
 )
@@ -79,7 +77,7 @@ const IconWrap = withBaseIcon({ size: '25%' })
 const Twitter = () => <IconWrap icon={twitterSquare} />
 const Youtube = () => <IconWrap icon={youtubeSquare} />
 const Instagram = () => <IconWrap icon={instagram} />
-const A_iconlink = styled.a`
+const A1 = styled.a`
   color: #555bfb;
 
   &:hover {

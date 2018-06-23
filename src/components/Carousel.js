@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { Section, Div, H1, A, P, Button } from '../assets/Matrix'
 
@@ -9,18 +8,17 @@ const Carousel = ({ data }) => (
     {data.allYoutubeVideo.edges.map(item => (
       <DivResponse1 key={item.node.videoId}>
         <Div modifiers={['f1']}>
-          <IframeResponse src={`http://www.youtube.com/embed/${item.node.videoId}`}
-          frameBorder="1" allowFullScreen></IframeResponse>
+          <IframeResponse src={`http://www.youtube.com/embed/${item.node.videoId}`} frameBorder="1" allowFullScreen />
         </Div>
         <DivResponse2>
-          <A href={`https://www.youtube.com/watch?v=${item.node.videoId}&showinfo=0`} target='_blank'>
+          <A href={`https://www.youtube.com/watch?v=${item.node.videoId}&showinfo=0`} target="_blank">
             ♦️ <P modifiers={['b', 'u']}> {item.node.title}</P>
           </A>
-          <P>{item.node.description.substr(0, 300) + '...'}</P>
+          <P>{`${item.node.description.substr(0, 300)} ...`}</P>
         </DivResponse2>
       </DivResponse1>
     ))}
-    <A href={'https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw'} target='_blank'>
+    <A href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
       <Button>More Videos</Button>
     </A>
   </Section>

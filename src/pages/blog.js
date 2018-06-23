@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styled from 'styled-components'
 import { Wrapper, Div, H1, H3, P, Img } from '../assets/Matrix'
 
 const BlogPage = ({ data }) => (
@@ -9,10 +8,11 @@ const BlogPage = ({ data }) => (
     {data.allMarkdownRemark.edges.map(post => (
       <Div key={post.node.id}>
         <Link to={post.node.frontmatter.path}>
-          <Img modifiers={['w50', 'frame']}
-          src={post.node.frontmatter.image} 
-          title="Photo by Alex Read" 
-          alt="Book Photo by Alex Read" 
+          <Img
+            modifiers={['w50', 'frame']}
+            src={post.node.frontmatter.image}
+            title="Photo by Alex Read"
+            alt="Book Photo by Alex Read"
           />
         </Link>
         <H3>{post.node.frontmatter.title}</H3>

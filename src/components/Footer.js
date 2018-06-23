@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { Icon } from 'react-icons-kit'
 import { withBaseIcon } from 'react-icons-kit'
 import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
 import { Div, H1, P, Button } from '../assets/Matrix'
@@ -9,7 +8,7 @@ import { Div, H1, P, Button } from '../assets/Matrix'
 const Header = () => (
   <SectionResponse>
     <About />
-    <Nav /> 
+    <Nav />
     <Social />
   </SectionResponse>
 )
@@ -36,22 +35,22 @@ const Social = () => (
   <DivResponse>
     <H1 modifiers={['cWhite']}>Social</H1>
     <Div>
-      <A_iconlink href='https://twitter.com/travelDev' target="_blank">
+      <A1 href="https://twitter.com/travelDev" target="_blank">
         <Twitter />
         <PResponse>Twitter</PResponse>
-      </A_iconlink>
+      </A1>
     </Div>
     <Div>
-      <A_iconlink href='https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw' target="_blank">
+      <A1 href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
         <Youtube />
         <PResponse>Youtube</PResponse>
-      </A_iconlink>
+      </A1>
     </Div>
     <Div>
-      <A_iconlink href='https://www.instagram.com/travel_dev' target="_blank">
+      <A1 href="https://www.instagram.com/travel_dev" target="_blank">
         <Instagram />
         <PResponse>Instagram</PResponse>
-      </A_iconlink>
+      </A1>
     </Div>
   </DivResponse>
 )
@@ -101,7 +100,7 @@ const IconWrap = withBaseIcon({ size: '25%' })
 const Twitter = () => <IconWrap icon={twitterSquare} />
 const Youtube = () => <IconWrap icon={youtubeSquare} />
 const Instagram = () => <IconWrap icon={instagram} />
-const A_iconlink = styled.a`
+const A1 = styled.a`
   flex: 1 1 100%;
   display: block;
   color: #555bfb;

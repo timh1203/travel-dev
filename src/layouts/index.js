@@ -1,6 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
@@ -9,7 +7,8 @@ import './index.css'
 
 const Layout = ({ children, data }) => (
   <Container>
-    <Helmet title={data.site.siteMetadata.title}
+    <Helmet
+      title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: "travelDev's blog" },
         { name: 'keywords', content: 'travel, development' },
@@ -22,10 +21,6 @@ const Layout = ({ children, data }) => (
     </Div>
   </Container>
 )
-
-Layout.propTypes = {
-  children: PropTypes.func,
-}
 
 export default Layout
 

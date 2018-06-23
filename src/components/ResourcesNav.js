@@ -4,14 +4,14 @@ import styled from 'styled-components'
 import { Section, Span } from '../assets/Matrix'
 
 const ResourcesNav = () => (
-  <Section id='resources' modifiers={['w100', 'm0A']}>
+  <Section id="resources" modifiers={['w100', 'm0A']}>
     <DivResponsive>
-      <Span modifiers={['rotateRight']}><Link to='#travel'>🌎 Travel</Link></Span>
-      <Span modifiers={['rotateRight']}><Link to='#computer'>🖱️ Computer</Link></Span>
-      <Span modifiers={['rotateRight']}><Link to='#phone'>☎️ Phone</Link></Span>
-      <Span modifiers={['rotateRight']}><Link to='#camera'>📷 Camera</Link></Span>
-      <Span modifiers={['rotateRight']}><Link to='#software'>👨‍💻 Software</Link></Span>
-      <Span modifiers={['rotateRight']}><Link to='#web'>🕸️ Web</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to="#travel">🌎 Travel</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to="#computer">🖱️ Computer</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to="#phone">☎️ Phone</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to="#camera">📷 Camera</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to="#software">👨‍💻 Software</Link></Span>
+      <Span modifiers={['rotateRight']}><Link to="#web">🕸️ Web</Link></Span>
     </DivResponsive>
   </Section>
 )
