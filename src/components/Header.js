@@ -14,7 +14,7 @@ const Header = () => (
       allow="autoplay; encrypted-media"
       allowFullScreen
     />
-    <H21>I love to travel, code, and make videos. 💚 ✈️ 💻</H21>
+    <H21>I love to ️✈️, 💻, and 📹.</H21>
     <Div>
       <A href="https://twitter.com/travelDev" target="_blank">
         <FaTwitter1 size={50} />
@@ -36,43 +36,41 @@ const H11 = styled(H1)`
   text-shadow: 1px 4px 2px gray;
   transition: ease all 0.5s;
   margin: 0;
-
+  font-size: 6rem;
   &:hover {
     color: #555bfb;
     text-decoration: underline;
     transform: rotate(-10deg) scale(1.1);
     cursor: crosshair;
   }
-
-  @media only screen and (min-width: 374px) {
+  @media (max-width: 768px) {
     font-size: 4rem;
-  }
-  @media only screen and (min-width: 768px) {
-    font-size: 6rem;
   }
 `
 
 const Object1 = styled(Object)`
-  @media only screen and (min-width: 374px) {
+  width: 560px;
+  height: 315px;
+  @media (max-width: 768px) {
+    width: 480px;
+    height: 270px;
+  }
+  @media (max-width: 480px) {
     width: 320px;
     height: 180px;
-  }
-  @media only screen and (min-width: 768px) {
-    width: 560px;
-    height: 315px;
   }
 `
 
 const H21 = styled(H2)`
-  @media only screen and (min-width: 374px) {
+  @media (max-width: 768px) {
     font-family: 'Raleway';
     color: gray;
-    font-size: 0.8rem;
+    font-size: 1.4rem;
   }
-  @media only screen and (min-width: 768px) {
+  @media (max-width: 375px) {
     font-family: 'Raleway';
     color: gray;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 `
 
@@ -86,6 +84,9 @@ const FaTwitter1 = styled(FaTwitter)`
     box-shadow: 0 0 20px #0077B5;
     border: none;
   }
+  @media (max-width: 375px) {
+    margin: 1rem;
+  }
 `
 
 const FaYoutube1 = styled(FaYoutube)`
@@ -98,6 +99,9 @@ const FaYoutube1 = styled(FaYoutube)`
     box-shadow: 0 0 20px #FF0000;
     border: none;
   }
+  @media (max-width: 375px) {
+    margin: 1rem;
+  }
 `
 
 const FaInstagram1 = styled(FaInstagram)`
@@ -109,6 +113,9 @@ const FaInstagram1 = styled(FaInstagram)`
   margin: 2rem;
   &:hover {
     box-shadow: 0 0 20px #5454FF;
+  }
+  @media (max-width: 375px) {
+    margin: 1rem;
   }
 `
 
