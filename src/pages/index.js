@@ -14,7 +14,7 @@ const MainPage = ({ data }) => (
 
 export const query = graphql`
   query IndexQuery {
-    allYoutubeVideo(limit: 5) {
+    allYoutubeVideo(limit: 3) {
       edges {
         node {
           id

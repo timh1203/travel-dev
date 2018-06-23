@@ -40,10 +40,11 @@ export const A = styled.a`
 export const Button = styled.button`
   ${applyStyleModifiers(Modifiers)}
   border: 2px solid black;
-  border-radius: 5%;
+  border-radius: 10px;
   color: white;
   background: #555bfb;
   transition: ease all 0.5s;
+  font-size: 1rem;
   &:hover {
     background: white;
     color: #555bfb;
