@@ -1,44 +1,47 @@
+import FaTwitter from 'react-icons/lib/fa/twitter-square'
+import FaYoutube from 'react-icons/lib/fa/youtube-square'
+import FaInstagram from 'react-icons/lib/fa/instagram'
 import React from 'react'
 import styled from 'styled-components'
-import { withBaseIcon } from 'react-icons-kit'
-import { twitterSquare, instagram, youtubeSquare } from 'react-icons-kit/fa/'
-import { Section, Div } from '../assets/Matrix'
+import { Section, Div, H1, H2, A, Object } from '../assets/Matrix'
 
 const Header = () => (
   <Section>
-    <TitleResponse>travelDev</TitleResponse>
-    <ObjectResponse
+    <H11>travelDev</H11>
+    <Object1
       data="https://www.youtube.com/embed/d1fnzB8M3UM?rel=0&amp;controls=0&amp;showinfo=0"
       frameBorder="0"
       allow="autoplay; encrypted-media"
       allowFullScreen
     />
-    <H2Response modifiers={['ul']}>I love to travel, code, and make videos. 💚✈️💻</H2Response>
+    <H21>I love to travel, code, and make videos. 💚 ✈️ 💻</H21>
     <Div>
-      <A1 href="https://twitter.com/travelDev" target="_blank">
-        <Twitter />
-      </A1>
-      <A1 href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
-        <Youtube />
-      </A1>
-      <A1 href="https://www.instagram.com/travel_dev" target="_blank">
-        <Instagram />
-      </A1>
+      <A href="https://twitter.com/travelDev" target="_blank">
+        <FaTwitter1 size={50} />
+      </A>
+      <A href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
+        <FaYoutube1 size={50} />
+      </A>
+      <A href="https://www.instagram.com/travel_dev" target="_blank">
+        <FaInstagram1 size={50} />
+      </A>
     </Div>
   </Section>
 )
 
-const TitleResponse = styled.h1`
+const H11 = styled(H1)`
   font-family: 'Abril Fatface';
   font-weight: 800;
   color: #292929;
   text-shadow: 1px 4px 2px gray;
   transition: ease all 0.5s;
+  margin: 0;
 
   &:hover {
     color: #555bfb;
     text-decoration: underline;
     transform: rotate(-10deg) scale(1.1);
+    cursor: crosshair;
   }
 
   @media only screen and (min-width: 374px) {
@@ -49,7 +52,7 @@ const TitleResponse = styled.h1`
   }
 `
 
-const ObjectResponse = styled.object`
+const Object1 = styled(Object)`
   @media only screen and (min-width: 374px) {
     width: 320px;
     height: 180px;
@@ -60,7 +63,7 @@ const ObjectResponse = styled.object`
   }
 `
 
-const H2Response = styled.h2`
+const H21 = styled(H2)`
   @media only screen and (min-width: 374px) {
     font-family: 'Raleway';
     color: gray;
@@ -73,18 +76,39 @@ const H2Response = styled.h2`
   }
 `
 
-const IconWrap = withBaseIcon({ size: '25%' })
-const Twitter = () => <IconWrap icon={twitterSquare} />
-const Youtube = () => <IconWrap icon={youtubeSquare} />
-const Instagram = () => <IconWrap icon={instagram} />
-const A1 = styled.a`
-  color: #555bfb;
-
+const FaTwitter1 = styled(FaTwitter)`
+  color: #0077B5;
+  border: 1px solid #0077B5;
+  border-radius: 10%;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  margin: 2rem;
   &:hover {
-    color: black;
+    box-shadow: 0 0 20px #0077B5;
+    border: none;
   }
-  & div {
-    width: 100px;
+`
+
+const FaYoutube1 = styled(FaYoutube)`
+  color: #FF0000;
+  border: 1px solid #FF0000;
+  border-radius: 10%;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  margin: 2rem;
+  &:hover {
+    box-shadow: 0 0 20px #FF0000;
+    border: none;
+  }
+`
+
+const FaInstagram1 = styled(FaInstagram)`
+  color: white;
+  border-radius: 10%;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  margin: 2rem;
+  &:hover {
+    box-shadow: 0 0 20px #5454FF;
   }
 `
 

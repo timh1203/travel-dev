@@ -7,7 +7,6 @@ import { Section, Div, Img } from '../assets/Matrix'
 const Nav = () => (
   <Section1>
     <Link1 to="/"><Img1 src={logo} /></Link1>
-
     <Div1>
       <Link1 to="/">🏠 Home</Link1>
       <Link1 to="/about/">👤 About</Link1>
@@ -60,7 +59,7 @@ const Link1 = styled(Link)`
   text-decoration: none;
 
   &:hover {
-    text-shadow: 0 0 10px #555bfb;
+    text-shadow: 0 0 20px #5454FF;
   }
 
   @media (max-width: 768px) {

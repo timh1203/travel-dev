@@ -44,7 +44,6 @@ export const Button = styled.button`
   color: white;
   background: #555bfb;
   transition: ease all 0.5s;
-
   &:hover {
     background: white;
     color: #555bfb;
@@ -69,7 +68,6 @@ export const Title = styled.h1`
   color: #292929;
   text-shadow: 1px 4px 2px gray;
   transition: ease all 0.5s;
-
   &:hover {
     color: #555bfb;
     text-decoration: underline;
@@ -116,7 +114,6 @@ export const Input = styled.input`
   outline: none;
   border: 1px solid #555bfb;
   width: 25%;
-
   &:hover {
     transform: scale(1.02);
     border: 3px solid #555bfb;
@@ -138,7 +135,6 @@ export const Textarea = styled.textarea`
   outline: none;
   border: 1px solid #555bfb;
   width: 25%;
-
   &:hover {
     transform: scale(1.02);
     border: 3px solid #555bfb;
