@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import { Div, Container } from '../assets/Matrix'
+import './index.css'
 
 const Layout = ({ children, data }) => (
   <Container>
@@ -14,7 +15,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'travel, development' },
       ]}
     />
-    <Div modifiers={['mt2R', 'tCenter']}>
+    <Div>
       <Nav />
       {children()}
       <Footer />

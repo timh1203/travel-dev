@@ -8,13 +8,12 @@ export const Container = styled.div`
 `
 
 export const Wrapper = styled.div`
-  padding: 1rem 0;
   ${applyStyleModifiers(Modifiers)}
 `
 
 export const Section = styled.section`
-  ${applyStyleModifiers(Modifiers)}
   padding: 1rem 0;
+  ${applyStyleModifiers(Modifiers)}
 `
 
 export const Div = styled.div`
@@ -25,7 +24,6 @@ export const DivFeatured = styled.div`
   display: flex;
   margin: 0 auto;
   text-align: center;
-
   @media only screen and (min-width: 374px) and (max-width: 767px) {
     flex-direction: column;
   }

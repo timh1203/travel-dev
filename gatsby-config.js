@@ -12,12 +12,6 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'react-icons-kit',
     'gatsby-link',
-    {       
-      resolve: `gatsby-plugin-typography`,       
-      options: {         
-        pathToConfigModule: `src/utils/typography.js`,       
-      }
-    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

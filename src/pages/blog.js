@@ -21,7 +21,7 @@ const BlogPage = ({ data }) => (
         <Link to={post.node.frontmatter.path}>Read More...</Link>
         <hr />
       </Div>
-    ))}
+    )).reverse()}
   </Wrapper>
 )
 

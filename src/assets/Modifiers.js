@@ -3,6 +3,9 @@ export const Modifiers = {
   dFlex: () => `
     display: flex;
   `,
+  dGrid: () => `
+    display: grid;
+  `,
   dInline: () => `
     display: inline;
   `,
@@ -14,6 +17,14 @@ export const Modifiers = {
   `,
   vHidden: () =>  `
     visibility:hidden;
+  `,
+
+  // CSS Grid
+  gGTC2fr: () => `
+    grid-template-column: 1fr 1fr;
+  `,
+  gGG1rem: () => `
+    grid-gap: 1rem;
   `,
 
   // Flexbox
@@ -108,6 +119,9 @@ export const Modifiers = {
   mh300px: () => `
     max-height: 300px;
   `,
+  vh50: () => `
+    height: 50vh;
+  `,
 
   // Color
   cWhite: () => `
@@ -121,11 +135,8 @@ export const Modifiers = {
   `,
 
   // Font
-  fRaleway: () => `
-    font-family: 'Raleway';
-  `,
-  fAbril: () => `
-    font-family: 'Abril Fatface';
+  tDecNone: () => `
+    text-decoration: none;
   `,
   tCenter: () => `
     text-align: center;
