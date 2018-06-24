@@ -49,7 +49,7 @@ export const Button = styled.button`
     background: white;
     color: #555bfb;
     border: 2px solid black;
-    transform: scale(1.2);
+    box-shadow: 0 0 20px #5454FF;
   }
 `
 
@@ -120,6 +120,7 @@ export const Input = styled.input`
   &:focus {
     outline: none;
     border: 1px solid #555bfb;
+    box-shadow: 0 0 20px #5454FF;
   }
   @media (max-width: 768px) {
     width: 50%;
@@ -142,6 +143,7 @@ export const Textarea = styled.textarea`
   &:focus {
     outline: none;
     border: 1px solid #555bfb;
+    box-shadow: 0 0 20px #5454FF;
   }
   @media (max-width: 768px) {
     width: 50%;

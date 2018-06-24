@@ -22,11 +22,9 @@ const Section1 = styled(Section)`
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
-
   @media (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
   }
-
   @media (max-width: 375px) {
     grid-template-columns: 1fr;
     grid-auto-flow: rows;
@@ -44,12 +42,10 @@ const Div1 = styled(Div)`
   align-items: space-between;
   font-size: 1.2rem;
   margin: 1rem;
-
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
-
   @media (max-width: 375px) {
     grid-template-columns: 1fr;
   }
@@ -57,11 +53,13 @@ const Div1 = styled(Div)`
 
 const Link1 = styled(Link)`
   text-decoration: none;
-
+  &:visited {
+    color: #5454FF;
+  }
   &:hover {
+    text-decoration: underline;
     text-shadow: 0 0 20px #5454FF;
   }
-
   @media (max-width: 768px) {
     line-height: 2rem;
   }

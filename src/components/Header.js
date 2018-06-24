@@ -11,7 +11,6 @@ const Header = () => (
     <Iframe1
       src="https://www.youtube.com/embed/d1fnzB8M3UM?rel=0&amp;controls=0&amp;showinfo=0"
       frameBorder="1"
-      // allow="autoplay; encrypted-media"
       allowFullScreen
     />
     <H21>I love to ️✈️, 💻, and 📹.</H21>
