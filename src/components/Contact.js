@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Section, H1, Form, Ul, Li, Button, Input } from '../assets/Matrix'
+import { Section, H1, Form, Ul, Li, Img, Button, Input, Textarea } from '../assets/Matrix'
 
 const Contact = () => (
-  <Section modifiers={['py1']}>
+  <Section>
     <H1>✉️ Contact</H1>
+    <Img1 src="https://i.imgur.com/JOtaH0c.jpg" alt="Profile Picture" />
     <FormWrap />
   </Section>
 )
@@ -13,67 +14,27 @@ const FormWrap = () => (
   <Form id="contact-form" method="POST">
     <Ul modifiers={['lsNone']}>
       <Li><Input modifiers={['dNone']} type="hidden" name="From" value="traveldev.net" /></Li>
-      <Li><InputResponse type="text" name="First Name" placeholder="First Name" required /></Li>
-      <Li><InputResponse type="text" name="Last Name" placeholder="Last Name" required /></Li>
-      <Li><InputResponse type="email" name="Email" placeholder="Email" required /></Li>
-      <Li><TextareaResponse id="text" name="Body" placeholder="Message" required /></Li>
-      <Li modifiers={['p0', 'm0', 'h0']}><Input modifiers={['vHidden']} type="text" name="_gotcha" /></Li>
+      <Li><Input type="text" name="First Name" placeholder="First Name" required /></Li>
+      <Li><Input type="text" name="Last Name" placeholder="Last Name" required /></Li>
+      <Li><Input type="email" name="Email" placeholder="Email" required /></Li>
+      <Li><Textarea id="text" name="Body" placeholder="Message" required /></Li>
       <Li><Button id="send" type="submit" value="Send">Send</Button></Li>
+      <Li modifiers={['p0', 'm0', 'h0']}><Input modifiers={['vHidden']} type="text" name="_gotcha" /></Li>
     </Ul>
   </Form>
 )
 
-const InputResponse = styled.input`
-  padding: 0.5%;
-  transition: ease all 0.2s;
-  outline: none;
-  border: 1px solid #555bfb;
-
-  &:hover {
-    transform: scale(1.02);
-    border: 3px solid #555bfb;
+const Img1 = styled(Img)`
+  width: 300px;
+  border: 1px solid black;
+  box-shadow: 1px 3px 3px gray;
+  border-radius: 10px;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    width: 250px;
   }
-  &:focus {
-    border-radius: 50%;
-    border: 3px solid #555bfb;
-    outline: none;
-    padding: 0.8rem;
-    text-align: center;
-    color: black;
-  }
-
-  @media only screen and (min-width: 374px) {
-    width: 75%;
-  }
-  @media only screen and (min-width: 768px) {
-    width: 50%;
-  }
-`
-
-const TextareaResponse = styled.textarea`
-  padding: 0.5%;
-  transition: ease all 0.2s;
-  outline: none;
-  border: 1px solid #555bfb;
-
-  &:hover {
-    transform: scale(1.02);
-    border: 3px solid #555bfb;
-  }
-  &:focus {
-    border-radius: 50%;
-    border: 3px solid #555bfb;
-    outline: none;
-    padding: 0.8rem;
-    text-align: center;
-    color: black;
-  }
-
-  @media only screen and (min-width: 374px) {
-    width: 75%;
-  }
-  @media only screen and (min-width: 768px) {
-    width: 50%;
+  @media (max-width: 480px) {
+    width: 200px;
   }
 `
 

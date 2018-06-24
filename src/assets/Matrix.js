@@ -110,44 +110,50 @@ export const Img = styled.img`
 
 export const Input = styled.input`
   ${applyStyleModifiers(Modifiers)}
-  padding: 0.5%;
+  font-size: 1rem;
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
   transition: ease all 0.2s;
-  outline: none;
-  border: 1px solid #555bfb;
-  width: 25%;
-  &:hover {
-    transform: scale(1.02);
-    border: 3px solid #555bfb;
-  }
+  font-family: 'Raleway';
   &:focus {
-    border-radius: 50%;
-    border: 3px solid #555bfb;
     outline: none;
-    padding: 0.8rem;
-    text-align: center;
-    color: black;
+    border: 1px solid #555bfb;
+  }
+  @media (max-width: 768px) {
+    width: 50%;
+  }
+  @media (max-width: 480px) {
+    width: 70%;
   }
 `
 
 export const Textarea = styled.textarea`
   ${applyStyleModifiers(Modifiers)}
-  padding: 0.5%;
+  font-size: 1rem;
+  width: 40%;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
   transition: ease all 0.2s;
-  outline: none;
-  border: 1px solid #555bfb;
-  width: 25%;
-  &:hover {
-    transform: scale(1.02);
-    border: 3px solid #555bfb;
-  }
+  font-family: 'Raleway';
   &:focus {
-    border-radius: 50%;
-    border: 3px solid #555bfb;
     outline: none;
-    padding: 0.8rem;
-    text-align: center;
-    color: black;
+    border: 1px solid #555bfb;
   }
+  @media (max-width: 768px) {
+    width: 50%;
+  }
+  @media (max-width: 480px) {
+    width: 70%;
+  }
+`
+
+export const Ul = styled.ul`
+  ${applyStyleModifiers(Modifiers)}
+  padding: 0;
 `
 
 export const Li = styled.li`
@@ -159,9 +165,5 @@ export const Object = styled.object`
 `
 
 export const P = styled.p`
-  ${applyStyleModifiers(Modifiers)}
-`
-
-export const Ul = styled.ul`
   ${applyStyleModifiers(Modifiers)}
 `
