@@ -86,6 +86,9 @@ export const Modifiers = {
   `,
 
   // Window
+  w10: () => `
+  width: 10%;
+`,
   w25: () => `
     width: 25%;
   `,

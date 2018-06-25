@@ -1,6 +1,7 @@
 import React from 'react'
+import styled from 'styled-components'
 import Link from 'gatsby-link'
-import { Wrapper, Div, H1, H3, P, Img } from '../assets/Matrix'
+import { Wrapper, Div, Hr, H1, H3, P } from '../assets/Matrix'
 
 const BlogPage = ({ data }) => (
   <Wrapper>
@@ -8,7 +9,7 @@ const BlogPage = ({ data }) => (
     {data.allMarkdownRemark.edges.map(post => (
       <Div key={post.node.id}>
         <Link to={post.node.frontmatter.path}>
-          <Img
+          <Img1
             modifiers={['w50', 'frame']}
             src={post.node.frontmatter.image}
             title="Photo by Alex Read"
@@ -19,11 +20,22 @@ const BlogPage = ({ data }) => (
         <P>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</P>
         <P>Tags: {post.node.frontmatter.tags}</P>
         <Link to={post.node.frontmatter.path}>Read More...</Link>
-        <hr />
+        <Hr />
       </Div>
     )).reverse()}
   </Wrapper>
 )
+
+const Img1 = styled.img`
+  width: 560px;
+  border-radius: 10px;
+  @media (max-width: 768px) {
+    width: 480px;
+  }
+  @media (max-width: 500px) {
+    width: 320px;
+  }
+`
 
 export const pageQuery = graphql`
   query BlogIndexQuery {

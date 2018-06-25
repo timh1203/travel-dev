@@ -37,6 +37,12 @@ export const A = styled.a`
   ${applyStyleModifiers(Modifiers)}
 `
 
+export const Hr = styled.hr`
+  ${applyStyleModifiers(Modifiers)}
+  width: 70%;
+  margin: 1rem auto;
+`
+
 export const Button = styled.button`
   ${applyStyleModifiers(Modifiers)}
   border: 2px solid black;
