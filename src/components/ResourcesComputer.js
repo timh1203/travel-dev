@@ -1,23 +1,23 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Section, Div, DivFeatured, H1, H3, Span, P, A, Img } from '../assets/Matrix'
+import { SectionA, Div, DivA, DivB, H1, H3, SpanA, P, A, ImgA } from '../assets/Matrix'
 
 const ResourcesComputer = () => (
-  <Section id="computer" modifiers={['tLeft', 'my3A']}>
-    <Div modifiers={['dFlex', 'fjcBetween']}>
+  <SectionA id="computer">
+    <DivA>
       <H1>💻 Computer Tools</H1>
-      <Span modifiers={['rotateRight']}><Link to="#resources">Top☝</Link></Span>
-    </Div>
+      <SpanA><Link to="#resources">Top☝</Link></SpanA>
+    </DivA>
     <H3>I use these tools daily and always working towards the perfect setup.</H3>
 
-    <DivFeatured>
-      <Div modifiers={['f1']}>
-        <Div modifiers={['fjcCenter']}>
+    <DivB>
+      <Div>
+        <Div>
           <A href="https://www.amazon.com/gp/product/B00XZGUL8W/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1" target="_blank">
-            <Img modifiers={['mh300px']} src="https://i.imgur.com/aWsiTyf.png" alt="Macbook Pro 15-inch 2015" />
+            <ImgA src="https://i.imgur.com/aWsiTyf.png" alt="Macbook Pro 15-inch 2015" />
           </A>
         </Div>
-        <Div modifiers={['w75', 'm0A']}>
+        <Div>
           <P>
             ♦️ The <A href="https://www.amazon.com/gp/product/B00XZGUL8W/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1" target="_blank">Macbook Pro 2015 (15-inch 2.5Ghz Retina Display)</A> is meant for you if you're a developer/designer, there's no better laptop! Why the 2015? It's the best generation with usb-ports, aheadphone jack, magsafe, and retina display. None of that gimmicky touchbar deal. Want to see my technical specs?
             <br />
@@ -26,34 +26,34 @@ const ResourcesComputer = () => (
         </Div>
       </Div>
 
-      <Div modifiers={['f1']}>
+      <Div>
         <Div>
           <A href="https://www.amazon.com/Roost-Laptop-Stand-Adjustable-Portable/dp/B01C9KG8IG/ref=sr_1_4?ie=UTF8&qid=1527001259&sr=8-4&keywords=roost+stand" target="_blank">
-            <Img modifiers={['mh300px']} src="https://i.imgur.com/LN7qZbz.png" alt="Roost Laptop Stand" />
+            <ImgA src="https://i.imgur.com/LN7qZbz.png" alt="Roost Laptop Stand" />
           </A>
         </Div>
-        <Div modifiers={['w75', 'm0A']}>
+        <Div>
           <P>
             ♦️ The <A href="https://www.amazon.com/Roost-Laptop-Stand-Adjustable-Portable/dp/B01C9KG8IG/ref=sr_1_4?ie=UTF8&qid=1527001259&sr=8-4&keywords=roost+stand" target="_blank">Roost Laptop Stand</A> is an ergonomic solution which has dramatically help my long sessions of coding and watching video tutorials. There are going to be a couple imitations out there for cheap but I wanted a quality product that doesn't fail on me while on the road. Very durable construction compared to others as I've read. Shell up the money and buy it once.
           </P>
         </Div>
       </Div>
 
-      <Div modifiers={['f1']}>
+      <Div>
         <Div>
           <A href="https://www.amazon.com/gp/product/B01LQQH86A/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1" target="_blank">
-            <Img modifiers={['mh300px']} src="https://i.imgur.com/Rhmtyup.jpg" alt="WD 4TB External Hard Drive" />
+            <ImgA src="https://i.imgur.com/Rhmtyup.jpg" alt="WD 4TB External Hard Drive" />
           </A>
         </Div>
-        <Div modifiers={['w75', 'm0A']}>
+        <Div>
           <P>
-            ♦️ The <A href="https://www.amazon.com/gp/product/B01LQQH86A/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1" target="_blank">Western Digital 4TB Black My Passport  Portable External Hard Drive - USB 3.0</A> is a beast for the price! I'm using them to back up all my essentials like code, songs, movies, courses, etc. It also has some great software that comes along with it too. I use this drive for file backup and another drive for Apple's Time Machine.
+            ♦️ The <A href="https://www.amazon.com/gp/product/B01LQQH86A/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1" target="_blank">Western Digital 4TB Black My Passport Portable External Hard Drive - USB 3.0</A> is a beast for the price! I'm using them to back up all my essentials like code, songs, movies, courses, etc. It also has some great software that comes along with it too. I use this drive for file backup and another drive for Apple's Time Machine.
           </P>
         </Div>
       </Div>
-    </DivFeatured>
+    </DivB>
 
-    <Div modifiers={['w75', 'm0A']}>
+    <Div>
       <P>
         ♦️ <A href="https://www.amazon.com/gp/product/B077GPYD96/ref=oh_aui_detailpage_o03_s01?ie=UTF8&psc=1" target="_blank">iLeadon Macbook Pro 15 Inch Case, Nebula Map</A> gives a really nice rubbery grip with a world map silhouette, what's not to love? Oh, it helps hide that Macbook glowing apple logo which might garner the attention of thieves. 😉
       </P>
@@ -83,11 +83,15 @@ const ResourcesComputer = () => (
       </P>
 
       <P>
-        ♦️ <A href="https://www.amazon.com/Under-Armour-Hustle-Backpack-Black/dp/B077H6F887/ref=sr_1_2?s=pc&ie=UTF8&qid=1527002564&sr=8-2&keywords=Under%2BArmour%2BTeam%2BHustle%2B3.0%2BBackpack&th=1&psc=1" target="_blank">Under Armour UA Hustle 3.0 Backpack</A> is a 30L backpack I got from leftover travel airline points. It holds up to 15-inch laptop comfortably and feature a lower compartment for dirty shoes or wet items. A bit small on the size but fits my needs perfectly while still slingin that clean, city-slick aesthetic. Recommended for a work-day or hiking backpack.
+        ♦️ <A href="https://www.rei.com/product/880839/rei-co-op-trail-40-pack-mens" target="_blank">REI Trail 40</A> is a 40L internal-frame backpack that has organization and comfort features. This is my "suitcase" backpack and keeps all my clothes and bathroom items. It comes with a raincover stowed in its own zipper pocket in case you run into any unfavorable weather. It even has a slot for a water bladder which I have not used yet but great for slipping in a raincoat. Weighs 2 pound and 4 ounces. Dimensions are 21.625 x 13.125 x 10.5 inches. Go with the black color!
+      </P>
+
+      <P>
+        ♦️ <A hhref="https://www.amazon.com/Under-Armour-Hustle-Backpack-Black/dp/B077H6F887/ref=sr_1_2?s=pc&ie=UTF8&qid=1527002564&sr=8-2&keywords=Under%2BArmour%2BTeam%2BHustle%2B3.0%2BBackpack&th=1&psc=1" target="_blank">Under Armour UA Hustle 3.0 Backpack</A> is a 30L backpack I got from leftover travel airline points. This is my "tech" daypack and has my electronics. It holds up to 15-inch laptop comfortably and feature a lower compartment for dirty shoes or wet items. A bit small on the size but fits my needs perfectly while still slingin that clean, city-slick aesthetic. Weighs 1.3 pounds. Dimensions are 9.3 x 13.6 x 18.9 inches.
       </P>
     </Div>
     <hr />
-  </Section>
+  </SectionA>
 )
 
 export default ResourcesComputer

@@ -1,56 +1,59 @@
 import React from 'react'
-import { Section, Div, DivFeatured, H1, H3, P, A, Img } from '../assets/Matrix'
+import { SectionA, Div, DivA, DivB, H1, H3, P, A, ImgA } from '../assets/Matrix'
 
 const ResourcesTravel = () => (
-  <Section id="travel" modifiers={['tLeft', 'my3A']}>
+  <SectionA id="travel">
     <hr />
-    <Div modifiers={['dFlex', 'fjcBetween']}>
+    <DivA>
       <H1>✈️ Travel Tools</H1>
-    </Div>
+    </DivA>
     <H3>These are the services I like to use when I travel.</H3>
 
-    <DivFeatured>
-      <Div modifiers={['f1']}>
-        <Div modifiers={['fjcCenter']}>
+    <DivB>
+      <Div>
+        <Div>
           <A href="https://www.referyourchasecard.com/19/94WOW0DVSW" target="_blank">
-            <Img modifiers={['mh300px']} src="https://i.imgur.com/PfzBvlC.png" alt="Chase Sapphire Reserve" />
+            <ImgA src="https://i.imgur.com/PfzBvlC.png" alt="Chase Sapphire Reserve" />
           </A>
         </Div>
-        <Div modifiers={['w75', 'm0A']}>
+        <Div>
           <P>
-            ♦️ <A href="https://www.referyourchasecard.com/19/94WOW0DVSW" target="_blank">Chase Sapphire Reserve</A> has $300 annual travel credit, 50% more on travel redemption, Complimentary Lounge Membership, Global Entry/TSA Pre-Check Reimbursement, and no foreign transaction fee. Without a doubt, one of the best travel cards out there.
+            ♦️ <A href="https://www.referyourchasecard.com/19/94WOW0DVSW" target="_blank">Chase Sapphire Reserve</A> has $300 annual travel credit, 50% more on travel redemption, complimentary lounge membership, global entry/TSA pre-check registration reimbursement, earn 3x points on travel and dining, and no foreign transaction fee. Without a doubt, one of the best travel cards out there. The annual fee is $450 but in reality only $150 if you account for the $300 annual travel credit fee.
           </P>
         </Div>
       </Div>
 
-      <Div modifiers={['f1']}>
+      <Div>
         <Div>
           <A href="https://content.schwab.com/web/retail/public/get-started/checking/" target="_blank">
-            <Img modifiers={['mh300px']} src="https://i.imgur.com/4yww8sB.png" alt="Charles Schwab Debit Card" />
+            <ImgA src="https://i.imgur.com/4yww8sB.png" alt="Charles Schwab Debit Card" />
           </A>
         </Div>
-        <Div modifiers={['w75', 'm0A']}>
+        <Div>
           <P>
             ♦️ <A href="https://content.schwab.com/web/retail/public/get-started/checking/" target="_blank">Charles Schwab Debit Card</A> has no foreign transaction fees and will reimburse you for foreign ATM withdrawals, which I took full advantage of in Colombia. No minimum balance and a very nice card.
           </P>
         </Div>
       </Div>
 
-      <Div modifiers={['f1']}>
+      <Div>
         <Div>
           <A href="https://www.worldnomads.com/" target="_blank">
-            <Img modifiers={['mh300px']} src="https://i.imgur.com/lcQ10xg.png" alt="World Nomad Travel Insurance" />
+            <ImgA src="https://i.imgur.com/lcQ10xg.png" alt="World Nomad Travel Insurance" />
           </A>
         </Div>
-        <Div modifiers={['w75', 'm0A']}>
+        <Div>
           <P>
             ♦️ <A href="https://www.worldnomads.com/" target="_blank">World Nomads</A> insured me fo my Europe, Colombia, and Japan trip and seriously one of the best traveler's insurance sites out there with really great rates. They refunded me $500 bucks when I had problems with my laptop!
           </P>
         </Div>
       </Div>
-    </DivFeatured>
+    </DivB>
 
-    <Div modifiers={['w75', 'm0A']}>
+    <Div>
+      <P>
+        ♦️ <A href="#" target="_blank">Chase Sapphire Preferred</A> was the card I previously held before the Chase Sapphire Reserve Card. The card has 2x points on travel and dining, no foreign transaction fees, annual fee waived the first year, and other trip and baggage protections. This card is a lighter on the annual fee at $75. If I couldn't have the Reserve card, I would have this one instead.
+      </P>
       <P>
         ♦️ <A href="https://www.capitalone.com/bank/checking-accounts/online-checking-account/" target="_blank">Capital One 360 Credit or Debit Account</A> is my backup card in case of emergencies. I had both their credit and debit card and experienced solid service every time. With the debit services, I really enjoy not having to maintain a minimum balance and ability to deposit cash at a branch right across the street from my house.
       </P>
@@ -64,7 +67,7 @@ const ResourcesTravel = () => (
       </P>
     </Div>
     <hr />
-  </Section>
+  </SectionA>
 )
 
 export default ResourcesTravel

@@ -12,25 +12,35 @@ export const Wrapper = styled.div`
 `
 
 export const Section = styled.section`
-  padding: 1rem 0;
   ${applyStyleModifiers(Modifiers)}
+  padding: 1rem 0;
+`
+
+export const SectionA = styled.section`
+  ${applyStyleModifiers(Modifiers)}
+  padding: 1rem 0;
+  margin: 3rem auto;
+  text-align: left;
 `
 
 export const Div = styled.div`
   ${applyStyleModifiers(Modifiers)}
 `
 
-export const DivFeatured = styled.div`
+export const DivA = styled.div`
+  ${applyStyleModifiers(Modifiers)}
   display: flex;
-  margin: 0 auto;
+  justify-content: space-between;
+`
+
+export const DivB = styled.div`
+  ${applyStyleModifiers(Modifiers)}
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
-  @media only screen and (min-width: 374px) and (max-width: 767px) {
-    flex-direction: column;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
   }
-  @media only screen and (min-width: 768px) {
-    justify-content: center;
-    text-align: center;
-  } 
 `
 
 export const A = styled.a`
@@ -61,6 +71,16 @@ export const Button = styled.button`
 
 export const Span = styled.span`
   ${applyStyleModifiers(Modifiers)}
+`
+
+export const SpanA = styled.span`
+  ${applyStyleModifiers(Modifiers)}
+  transition: ease all 0.5s;
+  &:hover {
+    transform: rotate(-10deg) scale(1.1);
+    outline: none;
+    border: none;
+  }
 `
 
 export const Form = styled.form`
@@ -112,6 +132,11 @@ export const Iframe = styled.iframe`
 
 export const Img = styled.img`
   ${applyStyleModifiers(Modifiers)}
+`
+
+export const ImgA = styled.img`
+  ${applyStyleModifiers(Modifiers)}
+  max-height: 300px;
 `
 
 export const Input = styled.input`
