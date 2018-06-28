@@ -16,13 +16,6 @@ const ResourcesNav = () => (
   </Section1>
 )
 
-// x1. Rewrite with CSS grid
-// x2. ResourcesTravel: Add chase Sapphire referral Link
-// 3. ResourcesComputer: Add REI Trail 40
-// 4. ResourcesPhone: Add LG G6, G6 Phone Case, extra normal entry?
-// 5. ResourcesSoftware: Add Cloudplayer
-// 6. ResourcesWeb: Add ES6 For Everyone
-
 const Section1 = styled(Section)`
   width: 100%;
   margin: 0 auto;

@@ -69,6 +69,9 @@ export const Modifiers = {
   py3: () => `
     padding: 3rem 0;
   `,
+  pb1R: () => `
+    padding-bottom: 1rem;
+  `,
   m0: () => `
     margin: 0;
   `,

@@ -61,7 +61,7 @@ const ResourcesWeb = () => (
       </P>
 
       <P>
-        ♦️ <A href="https://es6.io/" target="_blank">ES6 For Everyone</A> is an awesome resource if you’re a JavaScript ninja. Get your chops down and learn all the updates that were released in 2015. Wes Bos is a great teacher and his videos are informative but do not leave you snoring. Wes covers template strings, promises, symbols, generators, proxies, and a ton more! Do yourself a favor if you doing JS and pick this up. Absolutely love this course and recommending to everyone I know!
+        ♦️ <A href="https://es6.io/" target="_blank">ES6 For Everyone</A> is an awesome resource if you’re a JavaScript ninja. Get your chops down and learn all the updates that were released in 2015. Wes Bos is a great teacher and his videos are informative but do not leave you snoring. Wes covers template strings, promises, symbols, generators, proxies, and a ton more! Do yourself a favor if you are doing JS and pick this up. Absolutely love this course and recommending to everyone I know!
       </P>
 
       <P>

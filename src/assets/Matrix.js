@@ -18,7 +18,6 @@ export const Section = styled.section`
 
 export const SectionA = styled.section`
   ${applyStyleModifiers(Modifiers)}
-  padding: 1rem 0;
   margin: 3rem auto;
   text-align: left;
 `

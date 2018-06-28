@@ -2,7 +2,7 @@ import React from 'react'
 import { Wrapper, H1, Img, P } from '../assets/Matrix'
 
 const AboutPage = () => (
-  <Wrapper>
+  <Wrapper modifiers={['pb1R']}>
     <H1 modifiers={['my3']}>About</H1>
     <Img modifiers={['w75', 'frame']} src="https://i.imgur.com/NtmLXEU.jpg" alt="Profile Picture" />
     <P modifiers={['fLarge', 'w75', 'm0A']}>
