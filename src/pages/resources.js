@@ -4,7 +4,7 @@ import ResourcesNav from '../components/ResourcesNav'
 import ResourcesComputer from '../components/ResourcesComputer'
 import ResourcesPhone from '../components/ResourcesPhone'
 import ResourcesCamera from '../components/ResourcesCamera'
-// import ResourcesSoftware from '../components/ResourcesSoftware'
+import ResourcesSoftware from '../components/ResourcesSoftware'
 // import ResourcesWeb from '../components/ResourcesWeb'
 import { Wrapper, H1, P } from '../assets/Matrix'
 
@@ -17,7 +17,7 @@ const ResourcesPage = () => (
     <ResourcesComputer />
     <ResourcesPhone />
     <ResourcesCamera />
-    {/* <ResourcesSoftware /> */}
+    <ResourcesSoftware />
     {/* <ResourcesWeb /> */}
 
     <P modifiers={['b']}>
