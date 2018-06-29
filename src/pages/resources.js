@@ -1,6 +1,6 @@
 import React from 'react'
 import ResourcesNav from '../components/ResourcesNav'
-// import ResourcesTravel from '../components/ResourcesTravel'
+import ResourcesTravel from '../components/ResourcesTravel'
 import ResourcesComputer from '../components/ResourcesComputer'
 import ResourcesPhone from '../components/ResourcesPhone'
 import ResourcesCamera from '../components/ResourcesCamera'
@@ -13,7 +13,7 @@ const ResourcesPage = () => (
     <H1 modifiers={['my3']}>Resources</H1>
     <ResourcesNav />
 
-    {/* <ResourcesTravel /> */}
+    <ResourcesTravel />
     <ResourcesComputer />
     <ResourcesPhone />
     <ResourcesCamera />
