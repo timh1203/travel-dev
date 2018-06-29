@@ -10,5 +10,6 @@ module.exports = {
       "jsx-a11y/anchor-is-valid": 0,
       "no-undef": 0,
       "import/prefer-default-export": 0,
+      "arrow-parens": 0,
     }
 }
