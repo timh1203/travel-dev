@@ -2,7 +2,7 @@ import React from 'react'
 import ResourcesNav from '../components/ResourcesNav'
 // import ResourcesTravel from '../components/ResourcesTravel'
 import ResourcesComputer from '../components/ResourcesComputer'
-// import ResourcesPhone from '../components/ResourcesPhone'
+import ResourcesPhone from '../components/ResourcesPhone'
 import ResourcesCamera from '../components/ResourcesCamera'
 // import ResourcesSoftware from '../components/ResourcesSoftware'
 // import ResourcesWeb from '../components/ResourcesWeb'
@@ -15,7 +15,7 @@ const ResourcesPage = () => (
 
     {/* <ResourcesTravel /> */}
     <ResourcesComputer />
-    {/* <ResourcesPhone /> */}
+    <ResourcesPhone />
     <ResourcesCamera />
     {/* <ResourcesSoftware /> */}
     {/* <ResourcesWeb /> */}
