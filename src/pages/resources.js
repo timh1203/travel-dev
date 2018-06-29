@@ -5,7 +5,7 @@ import ResourcesComputer from '../components/ResourcesComputer'
 import ResourcesPhone from '../components/ResourcesPhone'
 import ResourcesCamera from '../components/ResourcesCamera'
 import ResourcesSoftware from '../components/ResourcesSoftware'
-// import ResourcesWeb from '../components/ResourcesWeb'
+import ResourcesWeb from '../components/ResourcesWeb'
 import { Wrapper, H1, P } from '../assets/Matrix'
 
 const ResourcesPage = () => (
@@ -18,7 +18,7 @@ const ResourcesPage = () => (
     <ResourcesPhone />
     <ResourcesCamera />
     <ResourcesSoftware />
-    {/* <ResourcesWeb /> */}
+    <ResourcesWeb />
 
     <P modifiers={['b']}>
       Disclosure: Some of the links are affiliate links. This means if you click on the link and purchase the item, I will receive an affiliate commission. However, this is at no extra cost to you. You’d just be helping me out. 🙂
