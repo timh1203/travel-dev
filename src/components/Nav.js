@@ -10,6 +10,7 @@ const Nav = () => (
     <Div1>
       <Link1 to="/">🏠 Home</Link1>
       <Link1 to="/about/">👤 About</Link1>
+      <Link1 to="/playlists/">⏯ Playlists</Link1>
       <Link1 to="/blog">📘 Blog</Link1>
       <Link1 to="/resources">🌐 Resources</Link1>
     </Div1>
@@ -37,7 +38,7 @@ const Img1 = styled(Img)`
 
 const Div1 = styled(Div)`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-content: space-between;
   align-items: space-between;
   font-size: 1.2rem;

@@ -28,6 +28,7 @@ const Nav = () => (
     <Div1>
       <Link1 to="/">🏠 Home</Link1>
       <Link1 to="/about">👤 About</Link1>
+      <Link1 to="/playlists/">⏯ Playlists</Link1>
       <Link1 to="/blog">📘 Blog</Link1>
       <Link1 to="/resources">🌐 Resources</Link1>
     </Div1>
