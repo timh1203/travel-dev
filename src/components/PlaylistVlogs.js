@@ -15,7 +15,7 @@ const VideoVlogs = () => (
       <a href="https://www.youtube.com/watch?v=uy22kP6-SiI&list=PLPTS2VjPOpjXNL6SvDuG0wE7tMehCv5vz" rel="noopener noreferrer" target="_blank">
         <Img1 src="https://i.imgur.com/o1UDMId.png" alt="Japan Vlogs" />
       </a>
-      <a href="#" target="_blank">
+      <a href="https://www.youtube.com/watch?v=OwFP4rLeDYI&list=PLPTS2VjPOpjUrckwVyTFvN6rOKAbncwLp" rel="noopener noreferrer" target="_blank">
         <Img1 src="https://i.imgur.com/t4ysr80.png" alt="Mexico Vlogs" />
       </a>
     </Div1>

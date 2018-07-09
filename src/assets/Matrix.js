@@ -9,6 +9,7 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   ${applyStyleModifiers(Modifiers)}
+  margin-bottom: 1rem;
 `
 
 export const Section = styled.section`

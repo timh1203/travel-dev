@@ -4,8 +4,11 @@ import { Wrapper, H1, Div, Img } from '../assets/Matrix'
 
 const VideoTunes = () => (
   <Wrapper id="videos">
-    <H1>Assorted</H1>
+    <H1>Various</H1>
     <Div1>
+      <a href="https://www.youtube.com/watch?v=QzN6727lkDc&list=PLPTS2VjPOpjXJ894_CtqtDWn3IMiH96R9" rel="noopener noreferrer" target="_blank">
+        <Img1 src="https://i.imgur.com/lSe1ArX.png" alt="Assorted Videos Playlist" />
+      </a>
       <a href="https://www.youtube.com/watch?v=ak5j5DR3P_Q&list=PLPTS2VjPOpjXSlyPlkjLmvG2ff51Kq3bS" rel="noopener noreferrer" target="_blank">
         <Img1 src="https://i.imgur.com/r11sXso.png" alt="Travel Inspiration Music Playlist" />
       </a>
@@ -15,7 +18,7 @@ const VideoTunes = () => (
 
 const Div1 = styled(Div)`
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
 `
 
 const Img1 = styled(Img)`

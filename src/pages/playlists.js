@@ -2,13 +2,13 @@ import React from 'react'
 import { Wrapper } from '../assets/Matrix'
 import PlaylistVlogs from '../components/PlaylistVlogs'
 import PlaylistTunes from '../components/PlaylistTunes'
-import PlaylistAssorted from '../components/PlaylistAssorted'
+import PlaylistVarious from '../components/PlaylistVarious'
 
 const PlaylistsPage = () => (
   <Wrapper id="videos">
     <PlaylistVlogs />
     <PlaylistTunes />
-    <PlaylistAssorted />
+    <PlaylistVarious />
   </Wrapper>
 )
 
