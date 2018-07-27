@@ -5,7 +5,7 @@ const AboutPage = () => (
   <Wrapper modifiers={['pb1R']}>
     <H1 modifiers={['my3']}>About</H1>
     <Img modifiers={['w75', 'frame']} src="https://i.imgur.com/NtmLXEU.jpg" alt="Profile Picture" />
-    <P modifiers={['fLarge', 'w75', 'm0A', 'py3']}>
+    <P modifiers={['fLarge', 'w75', 'm0A', 'py1']}>
       In August 2015, I took a backpacking trip with a friend through Germany, Netherlands, Switzerland, and Italy. Little did I know that it would change my outlook on life for good. You see, it wasn't my first trip in Europe as I went previously in 2013 but there was something different this time. This time, a new friend and I talked about life over a bottle of wine in Florence, Italy. I asked him what's next for him after this, he said he doesn't know yet and will go where he wants. This is the same guy who was traveling in Montenegro a couple weeks before. I asked him how he would manage his life back home in Montana. He said he lives on the road now. My mind was blown. Shortly, my two week travel stint was over, it was time to head back stateside.
     <br />
     <br />
@@ -19,6 +19,7 @@ const AboutPage = () => (
     <br />
     <br />
       Thanks for visiting my site.
+    <br />
     <br />
       🌎Aho mitakuye oyasin💚
     </P>
