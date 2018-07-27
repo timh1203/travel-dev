@@ -23,18 +23,18 @@ const ResourcesSoftware = () => (
         }
       />
       <ResourcesEntry
-        href="http://www.bluehost.com/track/timothyhoang/"
-        src="https://i.imgur.com/5MY8H3s.png"
+        href="http://www.bluehost.com/track/timothyhoang"
+        src="https://i.imgur.com/wDw6FCj.png"
         alt="Bluehost Web Hosting"
         text={
           <P>
-            ♦️ <A href="http://www.bluehost.com/track/timothyhoang/" target="_blank">Bluehost</A> is a popular company for good reason. It’s affordable, easy to use, and has excellent support. I’ve already hosted six websites with them and they have not let me down yet. Consider a Plus plan if you plan on hosting many websites. Use <A href="http://www.bluehost.com/track/timothyhoang/">my affiliate link</A> if you decide to get it!
+            ♦️ <A href="http://www.bluehost.com/track/timothyhoang" target="_blank">Bluehost</A> is a popular company for good reason. It’s affordable, easy to use, and has excellent support. I’ve already hosted six websites with them and they have not let me down yet. Consider a Plus plan if you plan on hosting many websites. Use <A href="http://www.bluehost.com/track/timothyhoang/">my affiliate link</A> if you decide to get it!
           </P>
         }
       />
       <ResourcesEntry
         href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=48068&tid1=traveldev"
-        src="https://i.imgur.com/3OZAEvD.png"
+        src="https://i.imgur.com/lxsNfk4.png"
         alt="Divi Themes by Elegant Themes"
         text={
           <P>
