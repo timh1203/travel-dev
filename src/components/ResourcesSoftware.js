@@ -24,7 +24,7 @@ const ResourcesSoftware = () => (
       />
       <ResourcesEntry
         href="http://www.bluehost.com/track/timothyhoang/"
-        src="https://i.imgur.com/iBfHVDZ.png"
+        src="https://i.imgur.com/5MY8H3s.png"
         alt="Bluehost Web Hosting"
         text={
           <P>

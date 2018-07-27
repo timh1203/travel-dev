@@ -5,7 +5,7 @@ import { Section, Div, H1, A, P, Iframe, Button } from '../assets/Matrix'
 const Carousel = ({ data }) => (
   <Section1>
     <H1>📹 Latest Videos</H1>
-    <Section2>
+    <Section>
       {data.allYoutubeVideo.edges.map(item => (
         <Div1 key={item.node.videoId}>
           <Div modifiers={['f1']}>
@@ -23,7 +23,7 @@ const Carousel = ({ data }) => (
           </Div>
         </Div1>
       ))}
-    </Section2>
+    </Section>
     <A href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
       <Button>More Videos</Button>
     </A>
@@ -33,9 +33,6 @@ const Carousel = ({ data }) => (
 const Section1 = styled(Section)`
   background: rgb(85, 91, 251, 0.2);
   text-align: center;
-`
-
-const Section2 = styled(Section)`
 `
 
 const Iframe1 = styled(Iframe)`

@@ -19,6 +19,15 @@ const VideoTunes = () => (
 const Div1 = styled(Div)`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 const Img1 = styled(Img)`
