@@ -92,8 +92,8 @@ I’m super excited about this next chapter in my life. As I move out of the 100
 Remember that you never waste time if you’re moving forward. Sitting still and doing nothing will not help place you in a more favorable position.
 
 Where’s part 1 and 2?
-- Part 1: [A Habit Made Easy to Keep, Harder to Quit](http://traveldev.net/easy-habit)
-- Part 2: [Pearls from a Self-Taught Web Developer](http://traveldev.net/developer-pearls)
+- Part 1: <a href="http://traveldev.net/easy-habit">A Habit Made Easy to Keep, Harder to Quit</a>
+- Part 2: <a href="http://traveldev.net/developer-pearls">Pearls from a Self-Taught Web Developer</a>
 
 If you enjoyed my thoughts, you’re welcome to follow my:
 - BLOG ➞ [http://traveldev.net](http://traveldev.net)

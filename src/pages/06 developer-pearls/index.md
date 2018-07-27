@@ -229,8 +229,8 @@ Get creative in all aspects of your life and see what doors open up for you.
 Take advantage of your situation!
 
 Where’s part 1 and 3?
-- Part 1: [A Habit Made Easy to Keep, Harder to Quit](http://traveldev.net/easy-habit)
-- Part 3: [The Extraordinary Plans](http://traveldev.net/extraordinary-plans)
+- Part 1: <a href="http://traveldev.net/easy-habit">A Habit Made Easy to Keep, Harder to Quit</a>
+- Part 3: <a href="http://traveldev.net/extraordinary-plans">The Extraordinary Plans</a>
 
 If you enjoyed my thoughts, you’re welcome to follow my:
 - BLOG ➞ [http://traveldev.net](http://traveldev.net)

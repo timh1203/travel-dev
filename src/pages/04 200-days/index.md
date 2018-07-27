@@ -70,7 +70,6 @@ The biggest thing I learned from this cycle of 100 days was to persist even hard
 The next 100 rounds, I'm attempting a couple new habits. I'm working on waking up before the sun, meditating, using apple cider vinegar, adding steamed vegetable to my diet, and podcast-walking. This isn't related to coding but I thought you should know that I have been feeling a significant gain in my productivity. I feel completely relaxed and full of energy to code and no longer take any naps. So that's why you see the icy sunrise picture as my banner. I love waking up before the sun and the cold invigorates you (as Wim Hof would say, "the cold is your friend"). Let's see where I'll go in the next round. Good luck to to all my fellow JavaScript Jedis and feel free to connect with me!
 
 If you enjoyed my thoughts, you’re welcome to follow my:
-If you enjoyed my thoughts, you’re welcome to follow my:
 - BLOG ➞ [http://traveldev.net](http://traveldev.net)
 - YOUTUBE ➞ [https://www.youtube.com/c/travelDevVideos](https://www.youtube.com/c/travelDevVideos)
 - INSTAGRAM ➞ [https://www.instagram.com/travel_Dev](https://www.instagram.com/travel_Dev)

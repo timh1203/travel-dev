@@ -165,10 +165,9 @@ even more interesting. Thanks for reading and hope that you have enjoyed this
 article.
 
 Where’s part 2 and 3? <br>
-- Part 2: [Pearls from a Self-Taught Web Developer](http://traveldev.net/developer-pearls) <br>
-- Part 3: [The Extraordinary Plans](http://traveldev.net/extraordinary-plans)
+- Part 2: <a href="http://traveldev.net/developer-pearls">Pearls from a Self-Taught Web Developer</a>
+- Part 3: <a href="http://traveldev.net/extraordinary-plans">The Extraordinary Plans</a>
 
-If you enjoyed my thoughts, you’re welcome to follow my:
 If you enjoyed my thoughts, you’re welcome to follow my:
 - BLOG ➞ [http://traveldev.net](http://traveldev.net)
 - YOUTUBE ➞ [https://www.youtube.com/c/travelDevVideos](https://www.youtube.com/c/travelDevVideos)
