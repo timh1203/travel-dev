@@ -3,25 +3,25 @@ import FaYoutube from 'react-icons/lib/fa/youtube-square'
 import FaInstagram from 'react-icons/lib/fa/instagram'
 import React from 'react'
 import styled from 'styled-components'
-import { Section, Div, H1, H2, A, Iframe } from '../assets/Matrix'
+import { Section, Div, H1, H2, A, Iframe, twitter, youtube, instagram, introVid } from '../assets/Matrix'
 
 const Header = () => (
   <Section>
     <H11>travelDev</H11>
     <Iframe1
-      src="https://www.youtube.com/embed/d1fnzB8M3UM?rel=0&amp;controls=0&amp;showinfo=0"
+      src={introVid}
       frameBorder="1"
       allowFullScreen
     />
     <H21>I love to ️✈️, 💻, and 📹.</H21>
     <Div>
-      <A href="https://twitter.com/travelDev" target="_blank">
+      <A href={twitter} target="_blank">
         <FaTwitter1 size={50} />
       </A>
-      <A href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
+      <A href={youtube} target="_blank">
         <FaYoutube1 size={50} />
       </A>
-      <A href="https://www.instagram.com/travel_dev" target="_blank">
+      <A href={instagram} target="_blank">
         <FaInstagram1 size={50} />
       </A>
     </Div>

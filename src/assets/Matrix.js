@@ -200,3 +200,9 @@ export const Object = styled.object`
 export const P = styled.p`
   ${applyStyleModifiers(Modifiers)}
 `
+
+// Social Links
+export const twitter = 'https://twitter.com/travelDev';
+export const youtube = 'https://www.youtube.com/c/travelDevVideos';
+export const instagram = 'https://www.instagram.com/travel_dev';
+export const introVid = 'https://www.youtube.com/embed/d1fnzB8M3UM?rel=0&amp;controls=0&amp;showinfo=0';

@@ -4,7 +4,7 @@ import FaInstagram from 'react-icons/lib/fa/instagram'
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { Div, H1, P, A, Button } from '../assets/Matrix'
+import { Div, H1, P, A, Button, twitter, youtube, instagram } from '../assets/Matrix'
 
 const Header = () => (
   <Section1>
@@ -39,13 +39,13 @@ const Social = () => (
   <Div>
     <H1 modifiers={['cWhite']}>Social</H1>
     <Div2>
-      <A1 href="https://twitter.com/travelDev" target="_blank">
+      <A1 href={twitter} target="_blank">
         <FaTwitter1 size={50} />
       </A1>
-      <A1 href="https://www.youtube.com/channel/UCUCXUCn0PEPrp7nAIFpFbOw" target="_blank">
+      <A1 href={youtube} target="_blank">
         <FaYoutube1 size={50} />
       </A1>
-      <A1 href="https://www.instagram.com/travel_dev" target="_blank">
+      <A1 href={instagram} target="_blank">
         <FaInstagram1 size={50} />
       </A1>
     </Div2>
