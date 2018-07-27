@@ -14,19 +14,10 @@ Here’s what I learned from coding for the past year. These are observations I�
 made and think would benefit you. None of this is theoretical, I had experiences
 with these topics andI’m always open to hear about other people’s thoughts too.
 
-[Part
-1](http://traveldev.net/easy-habit)
-was a brief review of tasks I’ve accomplished since [200 days of
-code](https://medium.com/@timh1203/introduction-b64d03d47b39) (~January 20th)
-and [part
-3](http://traveldev.net/extraordinary-plans)
-goes into my exciting plans for the rest of 2018.
+[Part 1](http://traveldev.net/easy-habit) was a brief review of tasks I’ve accomplished since [200 days of code](https://medium.com/@timh1203/introduction-b64d03d47b39) (~January 20th) and [part 3](http://traveldev.net/extraordinary-plans) goes into my exciting plans for the rest of 2018.
 
 If you would like to see what I did, you are welcome to check out my other
-medium articles about [100 days of
-code](https://medium.com/@timh1203/100-days-of-code-parallels-with-el-penol-de-guatape-4f92383970cd),
-[200 days of code](https://medium.com/@timh1203/introduction-b64d03d47b39), or
-jump to my [twitter](https://twitter.com/traveldev).
+medium articles about [100 days of code](https://medium.com/@timh1203/100-days-of-code-parallels-with-el-penol-de-guatape-4f92383970cd), [200 days of code](https://medium.com/@timh1203/introduction-b64d03d47b39), or jump to my [twitter](https://twitter.com/traveldev).
 
 ## Pearl: Job hunting
 
@@ -56,8 +47,7 @@ apply when you are ready and you will know that depending on what core skills
 you feel are needed for the job position you are looking for. I made a decision
 when I came back from Medellin that I want to get a web developer job in the
 next couple of months. Things were not working out as I expected so I’m shifting
-my strategy: become so good that they can’t ignore you. More on this in [part
-3](http://traveldev.net/extraordinary-plans).
+my strategy: become so good that they can’t ignore you. More on this in [part 3](http://traveldev.net/extraordinary-plans).
 
 ## Pearl: Internships/Apprenticeships
 
@@ -99,8 +89,7 @@ are interviewing me. It’s the same mindset I walked into Pharmacy School with
 and I wasn’t going to switch it up now. There’s a point where your self-worth is
 not worth sacrificing for the sake of it all. If I’m going to do something, I
 want to do it my way and it has to be of mutual benefit. So what should you do?
-[If no one believes in you, believe in
-yourself](https://www.youtube.com/watch?v=ISxymLfiUWw).
+[If no one believes in you, believe in yourself](https://www.youtube.com/watch?v=ISxymLfiUWw).
 
 ![](https://cdn-images-1.medium.com/max/1600/1*2VXp0AwEmx4w0FA1RgxIRg.png)
 <span class="figcaption_hack">Friendly warning from a Twitter friend.</span>
@@ -183,8 +172,7 @@ to have to have someone talk development with in person. Chat rooms and forums
 are nice but doesn’t hit the right buttons at the end of the day. Humans are
 social creatures and I’m old-fashioned. Want to work on your dev skills? Why not
 [make a website](https://free-code-camp-ashburn.github.io/website/) for your
-code and coffee meetup? I even tried making [an RSVP
-system](https://github.com/timh1203/respondez-app) for my coding meetup as to
+code and coffee meetup? I even tried making [an RSVP system](https://github.com/timh1203/respondez-app) for my coding meetup as to
 break out from Facebook. I promise you will make at least one developer friend.
 I know I did and my area is very suburban.
 
@@ -209,14 +197,12 @@ you’d like, I recommend podcast-walking. Syntax.fm or Language Transfer are
 quick ways to catch up on tech news and learn Spanish. Extra credits if you
 recognize these flags. 🇨🇴🇲🇽
 
-My friend Joe also runs a sort of [meditation
-group](https://joeprevite.com/meditation) if you’re into that. Hit him up on
+My friend Joe also runs a sort of [meditation group](https://joeprevite.com/meditation) if you’re into that. Hit him up on
 Twitter @jjprevite!
 
 ##Pearl: Think outside the box, your job & life happiness depends on it
 
-This will be a foreshadow of [part
-3](http://traveldev.net/extraordinary-plans)
+This will be a foreshadow of [part 3](http://traveldev.net/extraordinary-plans)
 but I want you to start thinking about optimizing your life too. Thinking like
 Tim Ferris? Great, that’s where I’m headed. Unlike any other jobs I’ve worked
 for, technology gigs are in a prime position to offer you many lifestyle design
@@ -242,13 +228,12 @@ year? That’s a smart life choice.
 Get creative in all aspects of your life and see what doors open up for you.
 Take advantage of your situation!
 
-Where’s part 1 and 3?<br> Part 1: [A Habit Made Easy to Keep, Harder to
-Quit](http://traveldev.net/easy-habit)<br>
-Part 3: [The Extraordinary
-Plans](http://traveldev.net/extraordinary-plans)
+Where’s part 1 and 3?
+- Part 1: [A Habit Made Easy to Keep, Harder to Quit](http://traveldev.net/easy-habit)
+- Part 3: [The Extraordinary Plans](http://traveldev.net/extraordinary-plans)
 
-If you enjoyed my thoughts, you’re welcome to follow my<br> BLOG ➞
-[http://traveldev.net](http://traveldev.net/)<br> TWITTER ➞
-[https://twitter.com/traveldev](https://twitter.com/traveldev) <br> YOUTUBE ➞
-[https://goo.gl/fFfWq4](https://goo.gl/fFfWq4)<br> INSTAGRAM ➞
-[https://www.instagram.com/travel_Dev](https://www.instagram.com/travel_Dev/)
+If you enjoyed my thoughts, you’re welcome to follow my:
+- BLOG ➞ [http://traveldev.net](http://traveldev.net)
+- YOUTUBE ➞ [https://www.youtube.com/c/travelDevVideos](https://www.youtube.com/c/travelDevVideos)
+- INSTAGRAM ➞ [https://www.instagram.com/travel_Dev](https://www.instagram.com/travel_Dev)
+- TWITTER ➞ [https://twitter.com/traveldev](https://twitter.com/traveldev)

@@ -15,18 +15,12 @@ photoAuthor: 'Timothy Hoang'
 
 I’m not anyone special; I just really love coding. For 365 days, I did something
 related to coding whether it’s practicing Javascript chops or light head-banging
-web apps. In this article, I want to share with you what happened since the [200
-Days of Code Article](https://medium.com/@timh1203/introduction-b64d03d47b39),
-[Pearls from a Self-Taught Web
-Developer](http://traveldev.net/developer-pearls)
-(Part 2), and finally [The Extraordinary
-Plans](http://traveldev.net/extraordinary-plans)
+web apps. In this article, I want to share with you what happened since the [200 Days of Code Article](https://medium.com/@timh1203/introduction-b64d03d47b39),
+[Pearls from a Self-Taught Web Developer](http://traveldev.net/developer-pearls)
+(Part 2), and finally [The Extraordinary Plans](http://traveldev.net/extraordinary-plans)
 (Part 3). Before I go any further, I want to send out some special mentions of
 people in the #100DaysofCode coding community who either has inspired me or been
-a positive force in my progress. Thanks to [Joe
-Previte](https://medium.com/@jjprevite), [Peter
-Cruckshank](https://medium.com/@petecruckshank), and [Sibylle
-Sehl](https://medium.com/@s_ibs) who makes me want to become a better developer
+a positive force in my progress. Thanks to [Joe Previte](https://medium.com/@jjprevite), [Peter Cruckshank](https://medium.com/@petecruckshank), and [Sibylle Sehl](https://medium.com/@s_ibs) who makes me want to become a better developer
 everyday. 😃
 
 ## Phase 1: Free Code Camp Certification
@@ -40,8 +34,7 @@ learning alongside Free Code Camp. Colt Steele and Wes Bos courses were really
 helpful in my case. Around this time, I also got a take-home challenge from a
 company that used React/Node/React Native but unfortunately it didn’t fall
 through. Oh well. To reach the certification, I had to complete a couple more
-projects including the [Javascript
-calculator](https://timh1203.github.io/calculator-app) (finished Feb 6th),
+projects including the [Javascript calculator](https://timh1203.github.io/calculator-app) (finished Feb 6th),
 [Pomodoro timer](https://timh1203.github.io/pomodoro-app/) (finished Feb 12th),
 [Tic-Tac-Toe game](https://timh1203.github.io/tictactoe-game) (finished Mar
 5th), and [Simon game](https://timh1203.github.io/simon-game) (finished Mar
@@ -117,14 +110,12 @@ with emphasis in digital nomadism/expatriatism (if that last one is even a real
 term). Joe (Twitter @jjprevite) and I teamed up to form #TeamGatsby on May 4th
 to learn and build a proper GatsbyJS website. We diligently worked under the
 clock as to finish before it struck June 1st and just in time for my upcoming
-plans (See [The Extraordinary
-Plans](http://traveldev.net/extraordinary-plans))!
+plans (See [The Extraordinary Plans](http://traveldev.net/extraordinary-plans))!
 
 <span class="figcaption_hack">Where I learned a lot about GatsbyJS and Styled Components.</span>
 
 I learned a ton as always and comfortably established my own styling system with
-styled-components inspired by [Alan
-Smith](https://tech.decisiv.com/structuring-our-styled-components-part-i-2bf21fa64b28).
+styled-components inspired by [Alan Smith](https://tech.decisiv.com/structuring-our-styled-components-part-i-2bf21fa64b28).
 You would think that GatsbyJS would be pretty easy to make links, put up
 pictures, make the site responsive, and the other things we understand using
 vanilla javascript. Well, let me tell you that sometimes it’s not all that
@@ -173,13 +164,13 @@ So that’s it? Nope, continue reading part 2 and 3 as I promise it’s going to
 even more interesting. Thanks for reading and hope that you have enjoyed this
 article.
 
-Where’s part 2 and 3?<br> Part 2: [Pearls from a Self-Taught Web
-Developer](http://traveldev.net/developer-pearls)<br>
-Part 3: [The Extraordinary
-Plans](http://traveldev.net/extraordinary-plans)
+Where’s part 2 and 3? <br>
+- Part 2: [Pearls from a Self-Taught Web Developer](http://traveldev.net/developer-pearls) <br>
+- Part 3: [The Extraordinary Plans](http://traveldev.net/extraordinary-plans)
 
-If you enjoyed my thoughts, you’re welcome to follow my<br> BLOG ➞
-[http://traveldev.net](http://traveldev.net/)<br> TWITTER ➞
-[https://twitter.com/traveldev](https://twitter.com/traveldev) <br> YOUTUBE ➞
-[https://goo.gl/fFfWq4](https://goo.gl/fFfWq4)<br> INSTAGRAM ➞
-[https://www.instagram.com/travel_Dev](https://www.instagram.com/travel_Dev/)
+If you enjoyed my thoughts, you’re welcome to follow my:
+If you enjoyed my thoughts, you’re welcome to follow my:
+- BLOG ➞ [http://traveldev.net](http://traveldev.net)
+- YOUTUBE ➞ [https://www.youtube.com/c/travelDevVideos](https://www.youtube.com/c/travelDevVideos)
+- INSTAGRAM ➞ [https://www.instagram.com/travel_Dev](https://www.instagram.com/travel_Dev)
+- TWITTER ➞ [https://twitter.com/traveldev](https://twitter.com/traveldev)

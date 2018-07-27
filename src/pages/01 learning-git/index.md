@@ -23,6 +23,7 @@ All that changed when I started working with a remote team with [Chingu-Voyage](
 <figure><img src="https://i.imgur.com/TZeDbp0.png" alt="Chingu-Voyage Turtle Team 2" style="width: 60%; display: block; margin-left: auto; margin-right: auto;"/><figcaption style=" text-align: center;">Joining a real team!</figcaption></figure>
 
 ## Where I went to learn for free
+
 Luckily at that time, I also needed to revamp my portfolio website and knew I would need some version control. I thought about reviewing the previous courses on the topic but I figured that wouldn't help too much. Then, there's reading books about Git and Github but this might not help with all the moving parts when working on a real project. They might teach the concepts really well but I think the best way to learn is to actually see pragmatic examples, working through the software, and having a good course. I started looking for in-depth courses online but some of them were paid. I'm a big believer in learning web development mostly for free/cheap since there are tons-o-resources online to learn anything. My search continued...until I came across Udacity. It turns out that they actually had 3 courses and 2 of them turned out really fantastic! All 3 were free of course!
 
 I started with [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) with Sarah Spikes and Caroline Buckey. It was a good starter and I learned some useful commands, setting up my terminal, and deep theory. I thought this would be the course that finally did it but I was wrong. We all learn differently and this course did not suit my learning style. Although many parts of the course were useful, I did not particularly enjoy the concept maps, interview clips, and examples that gave me errors when I went through them. Most of all, I didn't feel like I picked up the chops I needed to work with Turtles-Team-2.
@@ -40,6 +41,7 @@ The great thing was that the course didn't end there. Following the same teachin
 With all this knowledge, my team's chrome extension clone gave me a real-life working example to test out my new-found powers. It was a bit daunting as I was afraid I would fudge something and destroy their project! However, I trusted in the knowledge I gained and reminded myself that there are multiple copies of the repository on my computer, my teammate's computers, and on Github. If I screw something up, there are multiple backup copies. Pretty soon I was making way in making commits, pushing my changes to the project, and feeling much more comfortable with this black screen of death. I was so comfortable that I eventually implemented the terminal into my code editor (VS Code) and using it every day now!
 
 ## Conclusion
+
 What's the takeaway from this article?
 I recommend that you take these two free courses with Richard Kalehoff: [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123) and [Github and Collaboration](https://www.udacity.com/course/github-collaboration--ud456). It has prepared me to use Git and Github more than all the other brief appearances of the topic in other web development courses. The course is current, the examples work well, and the style of teaching was straight to the point without too much fluff in my opinion. The course will teach you to make changes to repositories and how to reverse changes when crap hits the fan. 
 
@@ -50,3 +52,9 @@ Then I would recommend you make use of the commands every day when you are codin
 Version Control programs like Git (there are others) has helped me trained me to think of my projects in commits. This has helped me from getting too overwhelmed by big projects. It also allows me to keep multiple versions of my projects without having to worry about losing a feature/look that I like to my project. Everything is saved in the log. It's even better for when I screw up a feature and want to find out the exact commit that the code caused something to crash. Did you know that other software use version control as well like google documents? The exception is the level is not as advanced.
 
 So save yourself some headache and learn it once and for all with these 2 courses. You don't have a to pay a penny for them and they are produced with great quality. I'll continuing my education with version control with other courses on this topic in the future but so far I'm very satisfied. For now, I continue to write my notes, working on multiple projects and saving my websites using Git and Github. I hope you have enjoyed this public service announcement. Remember set up your terminal in your IDE and git at it!
+
+If you enjoyed my thoughts, you’re welcome to follow my:
+- BLOG ➞ [http://traveldev.net](http://traveldev.net)
+- YOUTUBE ➞ [https://www.youtube.com/c/travelDevVideos](https://www.youtube.com/c/travelDevVideos)
+- INSTAGRAM ➞ [https://www.instagram.com/travel_Dev](https://www.instagram.com/travel_Dev)
+- TWITTER ➞ [https://twitter.com/traveldev](https://twitter.com/traveldev)
